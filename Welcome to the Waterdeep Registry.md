@@ -1,0 +1,1 @@
+The goal of this project is to create a index of properties across the city, organized by Ward, District, Neighborhood, Block, and Lot.
