@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1780609381575,
+      "lastAccessed": 1780609814496,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -11,11 +11,11 @@
             19.576356207045063,
             -128.10637245491304
           ],
-          "layer": "http://localhost:8000/_tiles/{z}/{x}/{-y}.png",
+          "layer": "http%3A%2F%2Flocalhost%3A8000%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": null,
+          "description": "Silavene's Festhall",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
