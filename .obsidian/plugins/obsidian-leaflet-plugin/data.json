@@ -1,5 +1,33 @@
 {
-  "mapMarkers": [],
+  "mapMarkers": [
+    {
+      "id": "waterdeep-map",
+      "lastAccessed": 1780609381575,
+      "markers": [
+        {
+          "id": "ID_0a88ca7a8b7a",
+          "type": "default",
+          "loc": [
+            19.576356207045063,
+            -128.10637245491304
+          ],
+          "layer": "http://localhost:8000/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Waterdeep Map.md"
+      ]
+    }
+  ],
   "defaultMarker": {
     "type": "default",
     "iconName": "map-marker",
