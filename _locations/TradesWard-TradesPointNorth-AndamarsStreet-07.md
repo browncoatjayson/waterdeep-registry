@@ -1,21 +1,21 @@
 ---
-type: location
-ward:
-district:
-neighborhood:
-street:
-number:
-building type:
+type: Building
+ward: Trades
+district: Northern Trades Ward
+neighborhood: Trades Point North
+street: Andamar's Street
+number: "7"
+building type: Undefined
 lifestyle:
 status: Draft
 owner_id:
-last_modified: <% tp.date.now("YYYY-MM-DD") %>
+last_modified: 2026-06-05
 coordinates:
   - x
   - y
 ---
 
-# <% tp.file.title %>
+# TradesWard-TradesPointNorth-AndamarStreet-07
 
 ## Overview
 [Enter a brief, 2-3 sentence description of the location.]

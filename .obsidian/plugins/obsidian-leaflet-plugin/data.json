@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1780609814496,
+      "lastAccessed": 1780697054108,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -16,6 +16,292 @@
           "command": false,
           "percent": null,
           "description": "Silavene's Festhall",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abbb09fa0918",
+          "type": "default",
+          "loc": [
+            7.52494117293696,
+            -66.99541121487914
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Dusken Glade Inn",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_897b2949eaea",
+          "type": "default",
+          "loc": [
+            4.938334956613143,
+            -66.7196292122069
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Monastery of the Sun Soul",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db89796afa5b",
+          "type": "default",
+          "loc": [
+            5.023223994874567,
+            -68.88315844443845
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Dusken Glade Inn",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a8491aca0bf9",
+          "type": "default",
+          "loc": [
+            9.369314101318286,
+            -66.73516622644193
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-04",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Herrim & Ithlalden Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99f9aa791b38",
+          "type": "default",
+          "loc": [
+            9.139052745258855,
+            -66.32731960277172
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-05",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Urshar Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1849aa2839d8",
+          "type": "default",
+          "loc": [
+            8.747676411890557,
+            -66.04765334654073
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-06",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Amethyst Eaves",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8da88697bb8",
+          "type": "default",
+          "loc": [
+            7.794412589040561,
+            -65.8145981330149
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-08",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Droverhall",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_890af8796809",
+          "type": "default",
+          "loc": [
+            7.2244759583968925,
+            -65.7912926116623
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-09",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Andamar Estates North",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b4adbe91bb9",
+          "type": "default",
+          "loc": [
+            6.669251884734369,
+            -65.6281539621942
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-10",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Andamar Estates Central",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a9968b82bc8",
+          "type": "default",
+          "loc": [
+            6.051599796129355,
+            -65.55046889101894
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-11",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Andamar Estates South",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b6a2aaa4b18",
+          "type": "default",
+          "loc": [
+            5.572429690903467,
+            -65.35625621308074
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-12",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Aunferyn Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbc9e9dababa",
+          "type": "default",
+          "loc": [
+            4.473555188174249,
+            -64.66485907962073
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-14",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Ilithien Corner",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eacbcb19d899",
+          "type": "default",
+          "loc": [
+            9.752370139173285,
+            -68.30200195312501
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-01",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Mothers Drimolle Rooming House",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b999d8789b18",
+          "type": "default",
+          "loc": [
+            9.706163482071661,
+            -67.69457685545666
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-02",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a5928b8fbfa",
+          "type": "default",
+          "loc": [
+            9.589917307087418,
+            -67.22534179687501
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-03",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f85959eb4b7b",
+          "type": "default",
+          "loc": [
+            8.317456187070718,
+            -65.83790365436745
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-07",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f979ab5a5bea",
+          "type": "default",
+          "loc": [
+            5.054177940508028,
+            -65.14650652090748
+          ],
+          "link": "TradesWard-TradesPointNorth-AndamarsStreet-13",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
