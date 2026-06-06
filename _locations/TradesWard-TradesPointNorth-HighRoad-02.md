@@ -3,9 +3,9 @@ type: Building
 ward: Trades
 district: Northern Trades Ward
 neighborhood: Trades Point North
-street: Andamar's Street
-number: "4"
-building type: Multi-Family Residence
+street: High Road
+number: "2"
+building type: Boarding House
 lifestyle: Modest
 status: Draft
 owner_id: Oneiropolis
@@ -15,12 +15,12 @@ coordinates:
   - y
 ---
 
-# Herrim & Illalden Residence
+# High Road Rooms
 
 ## Overview
-Residence for the Herrim and Illalden families. (A one story (with basement) multi-family dwelling (D) that is ramshackle and in need of repair)
+(A three story (no basement) rooming house (C) that is brand new, entirely without wear)
 ## Details
-* **Name:** Herrim & Illalden Residence
+* **Name:** High Road Rooms
 * **Key NPC:** 
 * **Watch Presence:** 
 * **Secret/Plot Hook:** 

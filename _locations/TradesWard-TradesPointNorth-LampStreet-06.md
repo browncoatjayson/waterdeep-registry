@@ -3,24 +3,25 @@ type: Building
 ward: Trades
 district: Northern Trades Ward
 neighborhood: Trades Point North
-street: Andamar's Street
-number: "4"
-building type: Multi-Family Residence
-lifestyle: Modest
+street: Lamp Street
+number: "6"
+building type: Undefined
+lifestyle:
 status: Draft
-owner_id: Oneiropolis
+owner_id:
 last_modified: 2026-06-05
 coordinates:
   - x
   - y
 ---
 
-# Herrim & Illalden Residence
+# TradesWard-TradesPointNorth-LampStreet-06
 
 ## Overview
-Residence for the Herrim and Illalden families. (A one story (with basement) multi-family dwelling (D) that is ramshackle and in need of repair)
+[Enter a brief, 2-3 sentence description of the location.]
+
 ## Details
-* **Name:** Herrim & Illalden Residence
+* **Name:** 
 * **Key NPC:** 
 * **Watch Presence:** 
 * **Secret/Plot Hook:** 

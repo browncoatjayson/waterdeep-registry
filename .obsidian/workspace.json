@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_locations/TradesWard-TradesPointNorth-AndamarsStreet-14.md",
+                "file": "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TradesWard-TradesPointNorth-AndamarsStreet-14"
+              "title": "TradesWard-TradesPointNorth-Courtyard-2"
             }
           }
         ]
@@ -212,24 +212,33 @@
   },
   "active": "b48ce690ef9359b4",
   "lastOpenFiles": [
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-14.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-08.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-07.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-09.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-13.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-05.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-12.md",
+    "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
     "Waterdeep Map.md",
-    "_templates/Location Template.md",
+    "_locations/TradesWard-TradesPointNorth-HighRoad-08.md",
+    "_locations/TradesWard-TradesPointNorth-HighRoad-07.md",
+    "_locations/TradesWard-TradesPointNorth-Courtyard-1.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-11.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-10.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-06.md",
+    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-09.md",
+    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-08.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-04.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-05.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-03.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-02.md",
+    "_templates/Location Template.md",
+    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-01.md",
+    "_locations/TradesWard-TradesPointNorth-HighRoad-11.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-09.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-08.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-06.md",
+    "_locations/TradesWard-TradesPointNorth-LampStreet-07.md",
+    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-02.md",
+    "_locations/TradesWard-TradesPointNorth-HighRoad-09.md",
+    "_locations/TradesWard-TradesPointNorth-HighRoad-10.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-03.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-04.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-02.md",
     "_locations",
-    "Welcome to the Waterdeep Registry.md",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",
     "_maps/4/9/7.png",
@@ -248,10 +257,6 @@
     "_maps/4/4",
     "_maps/4/37",
     "_maps/4/36",
-    "_maps/4/35",
-    "_maps/Waterdeep Map.md",
-    "Waterdeep Master Map.md",
-    "waterdeep_tiles-A1-20px.webp.md",
-    "_leaflet/waterdeep_tiles-A1-20px.webp.md"
+    "_maps/4/35"
   ]
 }

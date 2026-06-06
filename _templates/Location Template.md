@@ -13,6 +13,7 @@ last_modified: <% tp.date.now("YYYY-MM-DD") %>
 coordinates:
   - x
   - y
+wiki_url:
 ---
 
 # <% tp.file.title %>

@@ -3,8 +3,8 @@ type: Building
 ward: Trades
 district: Northern Trades Ward
 neighborhood: Trades Point North
-street: Andamar's Street
-number: "5"
+street: Lamp Street
+number: "2"
 building type: Residence
 lifestyle:
 status: Draft
@@ -15,18 +15,18 @@ coordinates:
   - y
 ---
 
-# Urshar Residence
+# Lyskan Hesune, Sage
 
 ## Overview
-Residence for the Urshar family. (A one story (with basement) single-family dwelling (D) that is in good condition, well-kept and clean)
+The residence of historian Lyskan Hesune. (A one story (no basement) dwelling with space shared with rental storage space (D) that is well-worn with heavy daily use)
 ## Details
-* **Name:** Urshar Residence
-* **Key NPC:** 
+* **Name:** Lyskan Hesune, Sage
+* **Key NPC:** Lyskan Hesune
 * **Watch Presence:** 
 * **Secret/Plot Hook:** 
 
 ## Registry Status
-- [ ] Is this location mapped?
+- [x] Is this location mapped?
 - [ ] Are all fields filled out?
 
 ---

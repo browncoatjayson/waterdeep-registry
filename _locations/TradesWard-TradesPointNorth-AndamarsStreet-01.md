@@ -15,7 +15,7 @@ coordinates:
   - y
 ---
 
-# TradesWard-TradesPointNorth-AndamarStreet-01
+# Mothers Drimmolle Rooming House
 
 ## Overview
 The Mothers Drimmolle – a kindly pair of ladywives named Mishaelle and Irinna – run their rooming house for artists and musicians. They cultivate a rarified environment where their residents can be inspired and left in peace to create, and the Mother Drimmolle consider themselves patrons of the arts in their own way. (A two story (no basement) rooming house (B) that is in good condition, well-kept and clean.)

@@ -15,7 +15,7 @@ coordinates:
   - y
 ---
 
-# TradesWard-TradesPointNorth-AndamarStreet-14
+# Ithilien's Corner
 
 ## Overview
 A modest, tidy rooming house run by Ithilien Mistseer, a moon elf proprietor of advanced age. (A one story (no basement) rooming house (D) that is in good condition, well-kept and clean)

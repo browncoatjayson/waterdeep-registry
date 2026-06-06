@@ -15,18 +15,18 @@ coordinates:
   - y
 ---
 
-# TradesWard-TradesPointNorth-AndamarStreet-11
+# Andamar Estates South
 
 ## Overview
 "The Estates" are a trio of large buildings, with very basic living spaces for those who struggle to make ends meet. Unfortunately, they have something of a reputation as a den for thieves, drug-users, and other shady sorts. Though they are three separate buildings, some of the residents have constructed temporary bridges between windows, providing ins and outs of all sorts. (A two story (no basement) apartment block (C) that is well-worn with heavy daily use)
 ## Details
 * **Name:** Andamar Estates South
-* **Key NPC:** 
+* **Key NPC:** Loumis Granthal, Mama Sagash, Erolstodd, Vandiara Goldenbrow, Amira Avinwyld, Ilvadori Avinwyld, Dinia Avinwyld, Elithander Avinwyld, Miska Avinwyld, Kondis Lemnath, Lailot Emirand, Jashev Rubbletoes
 * **Watch Presence:** 
 * **Secret/Plot Hook:** 
 
 ## Registry Status
-- [ ] Is this location mapped?
+- [x] Is this location mapped?
 - [ ] Are all fields filled out?
 
 ---

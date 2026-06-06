@@ -15,7 +15,7 @@ coordinates:
   - y
 ---
 
-# TradesWard-TradesPointNorth-AndamarStreet-08
+# Droverhall
 
 ## Overview
 A large establishment with small rooms and the very basic necessities, Droverhall tends to rent mostly to caravan guards and workers, who often spend weeks away from their residences at a time. The establishment not only provides good locks for long-term security while a resident is away, but if their paid-in-advance coin runs out, the management vows to store their goods for up to two years before getting rid of anything. (A three story (with basement) rooming house (C) that is well-worn with heavy daily use)

@@ -15,7 +15,7 @@ coordinates:
   - y
 ---
 
-# TradesWard-TradesPointNorth-AndamarStreet-12
+# Aunferyn Residence
 
 ## Overview
 Residence for the Aunferyn family. (A one story (with basement) multi-family dwelling (D) that is ramshackle and in need of repair)

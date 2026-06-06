@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1780697054108,
+      "lastAccessed": 1780756447980,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -27,11 +27,12 @@
             7.52494117293696,
             -66.99541121487914
           ],
+          "link": "TradesWard-TradesPointNorth-Courtyard-1",
           "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Dusken Glade Inn",
+          "description": "Amphail's Finest",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -43,6 +44,7 @@
             4.938334956613143,
             -66.7196292122069
           ],
+          "link": "TradesWard-TradesPointNorth-Courtyard-2",
           "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
@@ -56,9 +58,10 @@
           "id": "ID_db89796afa5b",
           "type": "default",
           "loc": [
-            5.023223994874567,
-            -68.88315844443845
+            5.000249412502496,
+            -69.14340343287563
           ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-08",
           "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
@@ -297,11 +300,430 @@
             -65.14650652090748
           ],
           "link": "TradesWard-TradesPointNorth-AndamarsStreet-13",
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
           "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7bdb689bd9bb",
+          "type": "default",
+          "loc": [
+            10.320323625412541,
+            -69.54895019531251
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-01",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Sammerza Margaster's Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b1808085978",
+          "type": "default",
+          "loc": [
+            9.708887865934848,
+            -69.52423095703126
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-02",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "High Road Rooms",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f918790aa848",
+          "type": "default",
+          "loc": [
+            9.150739872788337,
+            -69.48577880859376
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-03",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Seldinwyr's Perfumerie",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5919c93a788b",
+          "type": "default",
+          "loc": [
+            7.632750169621161,
+            -69.39587991419528
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-04",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Cinderworth's + Ilindamar's",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b9aabebd838",
+          "type": "default",
+          "loc": [
+            7.062603691520022,
+            -69.35703737860766
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-05",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "A Cut Above Clothiers",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_383beb98b8f8",
+          "type": "default",
+          "loc": [
+            6.461118934016673,
+            -69.2754680538736
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-06",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Potions & Notions",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68eb28eb48ab",
+          "type": "default",
+          "loc": [
+            5.912769628979951,
+            -69.2210885040509
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-07",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Oblerthar & Heirs Fine Steel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79ea4aa8e9da",
+          "type": "default",
+          "loc": [
+            4.194931086430543,
+            -69.21331999693338
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-09",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Nanny's Teatime",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a690a4bbbbb",
+          "type": "default",
+          "loc": [
+            3.605652384675354,
+            -69.16282470066945
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-10",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Archibald's Folios",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_183b5a18a9c8",
+          "type": "default",
+          "loc": [
+            2.7371628667703667,
+            -69.12786641864056
+          ],
+          "link": "TradesWard-TradesPointNorth-HighRoad-11",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Cragsmere Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2978490a492a",
+          "type": "default",
+          "loc": [
+            2.7061238898961193,
+            -68.52192286347338
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-01",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Hin-Home",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa396818b92a",
+          "type": "default",
+          "loc": [
+            2.7216434782498213,
+            -68.04804392930417
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-02",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Lyskan Hesune, Sage",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38bb1a194a98",
+          "type": "default",
+          "loc": [
+            2.7294031975602446,
+            -67.5819335022525
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-03",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Emerald Sky Warehouse",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_988a6adb290b",
+          "type": "default",
+          "loc": [
+            2.7371628667703667,
+            -67.00706397555543
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-04",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Old Summerleaf's Pipes",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8da09aafb8b",
+          "type": "default",
+          "loc": [
+            2.915621104375115,
+            -66.6108701125615
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-05",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Emerald Sky Warehouse",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b895ad9085b",
+          "type": "default",
+          "loc": [
+            3.156106670624691,
+            -66.24575027803769
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-06",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b68e93a593a",
+          "type": "default",
+          "loc": [
+            3.4042914221668292,
+            -65.87286193639635
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-07",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "The Yewhammer Brothers",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_18980b5ad939",
+          "type": "default",
+          "loc": [
+            3.706437431209318,
+            -65.42617277713849
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-08",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "The Elbor Sisters Confectionary",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6abba8285818",
+          "type": "default",
+          "loc": [
+            4.101953255327118,
+            -65.03386316770333
+          ],
+          "link": "TradesWard-TradesPointNorth-LampStreet-09",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Jenoril Ambergleam Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da5a7ac9dbd8",
+          "type": "default",
+          "loc": [
+            -47.081573939131,
+            -47.82273564882007
+          ],
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "The Singed Bolt",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68a83b6a796b",
+          "type": "default",
+          "loc": [
+            -49.99670934886809,
+            -46.20300191481548
+          ],
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Pipe Dreams",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a499b98abaa",
+          "type": "default",
+          "loc": [
+            -48.9877067907918,
+            -46.36225631072481
+          ],
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Sarthan Row",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d93a58ca2848",
+          "type": "default",
+          "loc": [
+            -49.23180333947143,
+            -43.69765836941271
+          ],
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Weirdbottle's Concoctions",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a3b38daaab8",
+          "type": "default",
+          "loc": [
+            -47.18198941826074,
+            -41.91090173238127
+          ],
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Falconfree's Residence",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db9acbf808b8",
+          "type": "default",
+          "loc": [
+            -47.09727635581116,
+            -40.027038756380726
+          ],
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wheel Hall",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"

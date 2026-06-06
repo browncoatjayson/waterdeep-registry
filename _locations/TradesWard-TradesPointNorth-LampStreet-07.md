@@ -3,8 +3,8 @@ type: Building
 ward: Trades
 district: Northern Trades Ward
 neighborhood: Trades Point North
-street: Andamar's Street
-number: "5"
+street: Lamp Street
+number: "7"
 building type: Residence
 lifestyle:
 status: Draft
@@ -15,13 +15,13 @@ coordinates:
   - y
 ---
 
-# Urshar Residence
+# The Yewhammer Brothers Residence
 
 ## Overview
-Residence for the Urshar family. (A one story (with basement) single-family dwelling (D) that is in good condition, well-kept and clean)
+Residence of Beruth and Oledil Yewhammer, dwarven laborers. (A one story (no basement) dwelling with space shared with rental storage space (D) that is undergoing renovations due to age)
 ## Details
-* **Name:** Urshar Residence
-* **Key NPC:** 
+* **Name:** The Yewhammer Brothers Residence
+* **Key NPC:** Beruth Yewhammer, Oledil Yewhammer
 * **Watch Presence:** 
 * **Secret/Plot Hook:** 
 
