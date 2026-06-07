@@ -3,7 +3,7 @@ type: Building
 ward: Trades
 district: Sea Ward
 neighborhood: Jelzar's Stride
-street: Alley
+street: March Alley
 number: "2"
 building type: Shop, Apartments
 lifestyle:

@@ -3,8 +3,8 @@ type: Building
 ward: Trades
 district: Sea Ward
 neighborhood: Jelzar's Stride
-street: Alley
-number: "3"
+street: Courtyard
+number: "1"
 building type: Undefined
 lifestyle:
 status: Draft
@@ -15,7 +15,7 @@ coordinates:
   - y
 ---
 
-# SeaWard-JelzarsStride-Alley-03
+# SeaWard-JelzarsStride-Courtyard-01
 
 ## Overview
 [Enter a brief, 2-3 sentence description of the location.]
