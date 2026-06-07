@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
+                "file": "_locations/SeaWard-JelzarsStride-TheLions-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TradesWard-TradesPointNorth-Courtyard-2"
+              "title": "SeaWard-JelzarsStride-TheLions-01"
             }
           }
         ]
@@ -212,8 +212,15 @@
   },
   "active": "b48ce690ef9359b4",
   "lastOpenFiles": [
-    "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
+    "_locations/SeaWard-JelzarsStride-TheLions-01.md",
+    "_locations/SeaWard-JelzarsStride-JelzarsStride-02.md",
     "Waterdeep Map.md",
+    "_locations/SeaWard-JelzarsStride-JelzarsStride-01.md",
+    "_locations/SeaWard-JelzarsStride-Alley-01.md",
+    "_locations/SeaWard-JelzarsStride-Alley-02.md",
+    "_locations/SeaWard-JelzarsStride-Alley-03.md",
+    "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
+    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-02.md",
     "_locations/TradesWard-TradesPointNorth-HighRoad-08.md",
     "_locations/TradesWard-TradesPointNorth-HighRoad-07.md",
     "_locations/TradesWard-TradesPointNorth-Courtyard-1.md",
@@ -231,13 +238,6 @@
     "_locations/TradesWard-TradesPointNorth-HighRoad-11.md",
     "_locations/TradesWard-TradesPointNorth-LampStreet-09.md",
     "_locations/TradesWard-TradesPointNorth-LampStreet-08.md",
-    "_locations/TradesWard-TradesPointNorth-LampStreet-06.md",
-    "_locations/TradesWard-TradesPointNorth-LampStreet-07.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-02.md",
-    "_locations/TradesWard-TradesPointNorth-HighRoad-09.md",
-    "_locations/TradesWard-TradesPointNorth-HighRoad-10.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-03.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-04.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",

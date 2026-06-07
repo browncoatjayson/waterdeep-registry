@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1780756447980,
+      "lastAccessed": 1780807822084,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -639,7 +639,7 @@
             -47.081573939131,
             -47.82273564882007
           ],
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -655,7 +655,7 @@
             -49.99670934886809,
             -46.20300191481548
           ],
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -671,7 +671,7 @@
             -48.9877067907918,
             -46.36225631072481
           ],
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -687,7 +687,7 @@
             -49.23180333947143,
             -43.69765836941271
           ],
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -703,7 +703,7 @@
             -47.18198941826074,
             -41.91090173238127
           ],
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -719,11 +719,481 @@
             -47.09727635581116,
             -40.027038756380726
           ],
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
           "description": "Wheel Hall",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eafb481bcaa9",
+          "type": "default",
+          "loc": [
+            -63.34735543705361,
+            -62.14416503906251
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Three Pearls Nightclub",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2afaf93bf9ca",
+          "type": "default",
+          "loc": [
+            -69.54925151653063,
+            -65.36790897375703
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "House of Tarmagus + Keel-Hauled Dwarf",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a298a0b9a39",
+          "type": "default",
+          "loc": [
+            -59.009544539220656,
+            -86.42120361328126
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Selune's Smile",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b7978890be8",
+          "type": "default",
+          "loc": [
+            -59.662278582272926,
+            -94.52362060546876
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Dekarios Tower",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db78eb7a8b98",
+          "type": "default",
+          "loc": [
+            -57.78037554816887,
+            -100.38208007812501
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Stormcloak Inn",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4ac9db5a1978",
+          "type": "default",
+          "loc": [
+            -31.99210418725137,
+            -108.29667930521668
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Piergeiron's Palace",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b8bca1b3919",
+          "type": "default",
+          "loc": [
+            -34.08239185559828,
+            -103.21607565035337
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Ahghairon's Tower",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a6959fa0b09",
+          "type": "default",
+          "loc": [
+            -27.143068698250232,
+            -108.66956764685804
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Guard Barracks",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a1a18592b08",
+          "type": "default",
+          "loc": [
+            48.946492762162606,
+            -63.3092545876121
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bookwyrm's Treasure",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a0ba9ca1b38",
+          "type": "default",
+          "loc": [
+            48.87501262122381,
+            -61.040850509293946
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Tiger's Eye",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b6beacaa909",
+          "type": "default",
+          "loc": [
+            48.82373292757179,
+            -58.745256656064406
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Trollskull Manor",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4ad94a89e8cb",
+          "type": "default",
+          "loc": [
+            47.63354256958755,
+            -59.195830068881044
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Corellon's Crown",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b39f8ea9949",
+          "type": "default",
+          "loc": [
+            47.29743050036863,
+            -57.22262926102893
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Steam & Steel",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0aa918b9ba09",
+          "type": "default",
+          "loc": [
+            47.96230492897429,
+            -56.8808149478577
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bent Nail",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29a9fa6b3a78",
+          "type": "default",
+          "loc": [
+            47.92083531348411,
+            -55.29215524232322
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Olvergant Warehouse",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98798b196b1a",
+          "type": "default",
+          "loc": [
+            -73.78254002627226,
+            -36.18939624032191
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Hlethvagi's Coins",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1bf9a9ab2a0b",
+          "type": "default",
+          "loc": [
+            -73.10306362901022,
+            -37.13326985510155
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Orm's Highbench",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69282b2a79d9",
+          "type": "default",
+          "loc": [
+            -73.28499762748368,
+            -33.13248868957464
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Athal's Stables",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6ae9e81b2b6a",
+          "type": "default",
+          "loc": [
+            -72.63630279275179,
+            -37.141038362219085
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bellister's House",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_197b9b0bab48",
+          "type": "default",
+          "loc": [
+            -72.59452289917246,
+            -38.19755533020289
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Bellister's Hand",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49ab4a3bc9aa",
+          "type": "default",
+          "loc": [
+            -71.4313653419165,
+            -38.06160645564615
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Metalmaster's Hall",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d92a19494b2a",
+          "type": "default",
+          "loc": [
+            -70.7977733321236,
+            -39.343410130038265
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Waymoot Watchpost",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0bc9195a98fb",
+          "type": "default",
+          "loc": [
+            -70.57690275021176,
+            -34.74056966290293
+          ],
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Prestar's Furniture",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a99ad8d9f97b",
+          "type": "default",
+          "loc": [
+            33.299971947734335,
+            -133.04714298166087
+          ],
+          "link": "SeaWard-JelzarsStride-Alley-02",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Lavah's Triumphant Wares",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a3848d80aa8",
+          "type": "default",
+          "loc": [
+            32.392800468053125,
+            -131.61773767203573
+          ],
+          "link": "SeaWard-JelzarsStride-JelzarsStride-02",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Gladiator's Blade",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39f9793b6aa8",
+          "type": "default",
+          "loc": [
+            34.81855520439105,
+            -128.5996726568761
+          ],
+          "link": "SeaWard-JelzarsStride-TheLions-01",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "House of Heroes",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09baca7a5b98",
+          "type": "default",
+          "loc": [
+            33.850124196362444,
+            -133.25689267383413
+          ],
+          "link": "SeaWard-JelzarsStride-Alley-01",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89b9eb69884a",
+          "type": "default",
+          "loc": [
+            32.47148243332218,
+            -132.65871762578445
+          ],
+          "link": "SeaWard-JelzarsStride-Alley-03",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abc80ada9bda",
+          "type": "default",
+          "loc": [
+            32.01153867865217,
+            -132.34797734108335
+          ],
+          "link": "SeaWard-JelzarsStride-JelzarsStride-01",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
