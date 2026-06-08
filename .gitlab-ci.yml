@@ -1,0 +1,36 @@
+stages:
+  - build
+  - deploy
+ 
+image: node:24
+cache:
+  - key: npm-$CI_COMMIT_REF_SLUG
+    paths:
+      - .npm/
+  - key: plugins-$CI_COMMIT_REF_SLUG
+    paths:
+      - .quartz/plugins/
+ 
+build:
+  stage: build
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "v5"'
+  before_script:
+    - hash -r
+    - npm ci --cache .npm --prefer-offline
+  script:
+    - npx quartz plugin install
+    - npx quartz build
+  artifacts:
+    paths:
+      - public
+ 
+pages:
+  stage: deploy
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "v5"'
+  script:
+    - echo "Deploying to GitLab Pages..."
+  artifacts:
+    paths:
+      - public
