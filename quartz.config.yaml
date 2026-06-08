@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Waterdeep Registry
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -256,13 +256,18 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:Requiae/quartz-leaflet-bases-plugin
+    enabled: true
+    options:
+      enableCopyTool: false
   - source:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: its-theme
+      variation: ttrpg-dnd
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
