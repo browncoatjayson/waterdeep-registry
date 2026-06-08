@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Waterdeep Map.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_locations/SeaWard-JelzarsStride-Courtyard-01.md",
+                "file": "_locations/_Placeholder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SeaWard-JelzarsStride-Courtyard-01"
+              "title": "_Placeholder"
             }
           }
         ]
@@ -212,9 +212,10 @@
   },
   "active": "b48ce690ef9359b4",
   "lastOpenFiles": [
+    "_locations/_Placeholder.md",
+    "README.md",
     "_locations/SeaWard-JelzarsStride-Courtyard-01.md",
     "Waterdeep Map.md",
-    "_locations/_Placeholder.md",
     "_templates/Location Template.md",
     "_locations/SeaWard-JelzarsStride-LionsAlley-01.md",
     "_locations/SeaWard-JelzarsStride-MarchAlley-01.md",
@@ -237,7 +238,6 @@
     "_locations/TradesWard-TradesPointNorth-LampStreet-03.md",
     "_locations/TradesWard-TradesPointNorth-LampStreet-02.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
-    "_locations/TradesWard-TradesPointNorth-LampStreet-01.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",
