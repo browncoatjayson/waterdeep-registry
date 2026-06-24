@@ -1,7 +1,7 @@
 ---
 type: Building
-ward: Trades
-district: Sea Ward
+ward: Sea Ward
+district: Triumphant
 neighborhood: Jelzar's Stride
 street: March Alley
 number: "1"

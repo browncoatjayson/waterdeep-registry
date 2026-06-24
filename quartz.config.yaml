@@ -257,7 +257,7 @@ plugins:
       priority: 15
       display: all
   - source: github:Requiae/quartz-leaflet-bases-plugin
-    enabled: true
+    enabled: false
     options:
       enableCopyTool: false
   - source:
@@ -275,6 +275,9 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: ./quartz-leaflet-plugin/obsidian-leaflet-tiles
+    enabled: true
+    order: 35
 layout:
   groups:
     toolbar:

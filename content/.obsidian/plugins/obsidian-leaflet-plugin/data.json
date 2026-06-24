@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1780865124866,
+      "lastAccessed": 1780977845947,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -1231,6 +1231,125 @@
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_49e9781b0a7b",
+          "type": "default",
+          "loc": [
+            34.710063548107684,
+            -133.6492022832693
+          ],
+          "link": "SeaWard-JelzarsStride-WestwallStreet-01",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29fae86b89fb",
+          "type": "default",
+          "loc": [
+            35.22571297289263,
+            -133.17532334910007
+          ],
+          "link": "SeaWard-JelzarsStride-WestwallStreet-02",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b88e9a92bca",
+          "type": "default",
+          "loc": [
+            35.75721805334674,
+            -132.6742546400195
+          ],
+          "link": "SeaWard-JelzarsStride-WestwallStreet-03",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b1b8a585a18",
+          "type": "default",
+          "loc": [
+            32.86084393529929,
+            -131.01745605468753
+          ],
+          "link": "SeaWard-JelzarsStride-JelzarsStride-03",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f9a8dbbac87b",
+          "type": "default",
+          "loc": [
+            35.12861355070341,
+            -131.39099121093753
+          ],
+          "link": "SeaWard-JelzarsStride-LionsAlley-02",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bf8f9aa3aeb",
+          "type": "default",
+          "loc": [
+            34.44287553997487,
+            -131.33605957031253
+          ],
+          "link": "SeaWard-JelzarsStride-LionsAlley-03",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e99b999998ea",
+          "type": "default",
+          "loc": [
+            33.742612777346885,
+            -131.08886718750003
+          ],
+          "link": "SeaWard-JelzarsStride-LionsAlley-04",
+          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
@@ -1271,8 +1390,8 @@
   "mapViewParameters": {},
   "enableDraw": true,
   "defaultUnitType": "imperial",
-  "defaultTile": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
-  "defaultTileDark": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/_tiles/{z}/{x}/{-y}.png",
+  "defaultTile": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+  "defaultTileDark": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
   "defaultAttribution": "Waterdeep City Map is unofficial Fan Content created by <a href=\"https://tychmaps.com\">Tych Maps</a>, permitted under the <a href=\"https://company.wizards.com/en/legal/fancontentpolicy\">Fan Content Policy</a>. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;<a href=\"https://company.wizards.com\">Wizards of the Coast LLC.</a>",
   "defaultTileSubdomains": ""
 }

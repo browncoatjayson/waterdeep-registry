@@ -3,7 +3,7 @@ type: Building
 ward: Sea Ward
 district: Triumphant
 neighborhood: Jelzar's Stride
-street: March Alley
+street: Lions Alley
 number: "3"
 building type: Undefined
 lifestyle:
@@ -15,7 +15,7 @@ coordinates:
   - y
 ---
 
-# SeaWard-JelzarsStride-MarchAlley-03
+# SeaWard-JelzarsStride-LionsAlley-03
 
 ## Overview
 [Enter a brief, 2-3 sentence description of the location.]

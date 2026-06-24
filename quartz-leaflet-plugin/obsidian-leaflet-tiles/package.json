@@ -1,0 +1,51 @@
+{
+  "name": "obsidian-leaflet-tiles",
+  "version": "0.1.0",
+  "description": "Quartz v5 plugin that renders Obsidian Leaflet (```leaflet) tiled image maps.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.0.0",
+    "yaml": "^2.8.0"
+  },
+  "peerDependencies": {
+    "@jackyzha0/quartz": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@jackyzha0/quartz": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@quartz-community/types": "github:quartz-community/types",
+    "esbuild": "^0.27.0",
+    "sass": "^1.97.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0"
+  },
+  "quartz": {
+    "name": "obsidian-leaflet-tiles",
+    "displayName": "Obsidian Leaflet Tiles",
+    "category": ["transformer"],
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 35,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

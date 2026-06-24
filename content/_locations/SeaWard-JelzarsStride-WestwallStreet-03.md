@@ -1,21 +1,21 @@
 ---
-type: Building
+type: location
 ward: Sea Ward
 district: Triumphant
 neighborhood: Jelzar's Stride
-street: March Alley
+street: Westwall Street
 number: "3"
 building type: Undefined
 lifestyle:
 status: Draft
 owner_id:
-last_modified: 2026-06-05
+last_modified: 2026-06-07
 coordinates:
   - x
   - y
+wiki_url:
 ---
-
-# SeaWard-JelzarsStride-MarchAlley-03
+# SeaWard-JelzarsStride-WestwallStreet-03
 
 ## Overview
 [Enter a brief, 2-3 sentence description of the location.]

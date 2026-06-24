@@ -1,0 +1,26 @@
+.olt-map {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #0b0c0e;
+
+  // Quartz constrains content images with max-width:100%; Leaflet tiles are
+  // <img> and must NOT be constrained or the map breaks. Override locally.
+  img {
+    max-width: none !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+}
+
+.leaflet-container {
+  background: #0b0c0e;
+  font: inherit;
+  // Keep Leaflet's panes/controls below Quartz's sticky chrome.
+  z-index: 0;
+
+  img {
+    max-width: none !important;
+  }
+}
