@@ -1,15 +1,33 @@
 import { QuartzTransformerPlugin } from '@quartz-community/types';
 
+/**
+ * Maps obsidian-leaflet marker coordinates (geographic lat/lng degrees) onto our
+ * tiled CRS.Simple map. Verified empirically (see dev/marker-align.html):
+ *   py = (mode === "mercator") ? mercatorY(lat) : lat
+ *   ourLng = A*lng + B*py + C
+ *   ourLat = D*lng + E*py + F
+ * where mercatorY(lat) = ln(tan(PI/4 + lat*PI/360)).
+ */
+interface MarkerTransform {
+    mode: "mercator" | "raw";
+    A: number;
+    B: number;
+    C: number;
+    D: number;
+    E: number;
+    F: number;
+}
+
 interface ObsidianLeafletTilesOptions {
-    /** Override the Leaflet stylesheet URL (e.g. to self-host / pin a version). */
     leafletCss?: string;
-    /** Override the Leaflet script URL. */
     leafletJs?: string;
+    /** Maps obsidian-leaflet marker coordinates onto the tiled map. */
+    markerTransform?: Partial<MarkerTransform>;
 }
 /**
- * Quartz v5 transformer. Finds ```leaflet code blocks, parses their YAML body,
- * and replaces each with a <div class="olt-map"> carrying the config (base64
- * JSON in data-olt). A browser script then renders the tiled Leaflet map.
+ * Quartz v5 transformer. Renders ```leaflet code blocks as tiled Leaflet maps,
+ * and (Phase 2) reads markers from obsidian-leaflet's data.json, transforms
+ * their coordinates onto the map, and links each to its note.
  */
 declare const ObsidianLeafletTiles: QuartzTransformerPlugin<Partial<ObsidianLeafletTilesOptions>>;
 

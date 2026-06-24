@@ -40,9 +40,19 @@ was verified empirically against the Waterdeep map before any plugin code was wr
        order: 35
    ```
 
-3. Run `npx quartz build --serve`. Quartz auto-installs this plugin's dependencies and builds it
-   (because `dist/` is gitignored, it rebuilds from source every time — convenient during
-   development; commit a prebuilt `dist/` later if you want faster builds).
+3. Build the plugin (Quartz does NOT auto-build *local* plugins, only ones it clones from GitHub):
+
+   ```bash
+   cd quartz-leaflet-plugin/obsidian-leaflet-tiles
+   npm install
+   npm run build          # produces dist/index.js — what Quartz loads
+   # or: npm run dev       # tsup watch mode; auto-rebuilds dist/ on changes
+   ```
+
+4. Run `npx quartz build --serve` from the repo root.
+
+> Note: once published to GitHub and referenced as `github:owner/repo`, Quartz *will* auto-install
+> and build it — the manual build is only needed for the local-path dev workflow.
 
 ## Options
 

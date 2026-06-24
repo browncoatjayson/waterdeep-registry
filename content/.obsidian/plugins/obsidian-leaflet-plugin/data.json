@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1780977845947,
+      "lastAccessed": 1782305339453,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -1291,7 +1291,7 @@
             -131.01745605468753
           ],
           "link": "SeaWard-JelzarsStride-JelzarsStride-03",
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -1308,7 +1308,7 @@
             -131.39099121093753
           ],
           "link": "SeaWard-JelzarsStride-LionsAlley-02",
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -1325,7 +1325,7 @@
             -131.33605957031253
           ],
           "link": "SeaWard-JelzarsStride-LionsAlley-03",
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
@@ -1342,11 +1342,27 @@
             -131.08886718750003
           ],
           "link": "SeaWard-JelzarsStride-LionsAlley-04",
-          "layer": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+          "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2Fcontent%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
           "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_698b68c8ead8",
+          "type": "default",
+          "loc": [
+            6.342061015017251,
+            -71.34577520069482
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"

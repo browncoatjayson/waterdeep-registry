@@ -25,3 +25,29 @@ export interface LeafletTileConfig {
   // Any other keys obsidian-leaflet allows are tolerated:
   [key: string]: unknown;
 }
+
+/**
+ * Maps obsidian-leaflet marker coordinates (geographic lat/lng degrees) onto our
+ * tiled CRS.Simple map. Verified empirically (see dev/marker-align.html):
+ *   py = (mode === "mercator") ? mercatorY(lat) : lat
+ *   ourLng = A*lng + B*py + C
+ *   ourLat = D*lng + E*py + F
+ * where mercatorY(lat) = ln(tan(PI/4 + lat*PI/360)).
+ */
+export interface MarkerTransform {
+  mode: "mercator" | "raw";
+  A: number;
+  B: number;
+  C: number;
+  D: number;
+  E: number;
+  F: number;
+}
+
+/** A marker ready to render: final map coordinates + label + optional note link. */
+export interface RenderMarker {
+  lat: number;
+  lng: number;
+  title: string;
+  href?: string;
+}

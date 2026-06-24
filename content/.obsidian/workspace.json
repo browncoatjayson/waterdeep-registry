@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99074d4b3ba1bbb5",
+        "id": "cedd39f90a717032",
         "type": "tabs",
         "children": [
           {
-            "id": "b48ce690ef9359b4",
+            "id": "b20b5a55cb2577b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Waterdeep Map"
-            }
-          },
-          {
-            "id": "365a6ae2ac1ab8b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_locations/SeaWard-JelzarsStride-LionsAlley-04.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SeaWard-JelzarsStride-LionsAlley-04"
             }
           }
         ]
@@ -210,13 +196,14 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "b48ce690ef9359b4",
+  "active": "b20b5a55cb2577b7",
   "lastOpenFiles": [
     "_locations/SeaWard-JelzarsStride-LionsAlley-04.md",
+    "_locations/TradesWard-TradesPointNorth-HighRoad-01.md",
+    "Waterdeep Map.md",
     "_locations/SeaWard-JelzarsStride-LionsAlley-03.md",
     "_locations/SeaWard-JelzarsStride-LionsAlley-02.md",
     "_locations/SeaWard-JelzarsStride-LionsAlley-01.md",
-    "Waterdeep Map.md",
     "_locations/SeaWard-JelzarsStride-JelzarsStride-03.md",
     "_locations/SeaWard-JelzarsStride-JelzarsStride-01.md",
     "_locations/SeaWard-JelzarsStride-JelzarsStride-02.md",
@@ -237,7 +224,6 @@
     "_locations/TradesWard-TradesPointNorth-HighRoad-07.md",
     "_locations/TradesWard-TradesPointNorth-Courtyard-1.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-11.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-10.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",

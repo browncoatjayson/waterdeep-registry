@@ -104,8 +104,49 @@ function buildMap(el: HTMLElement, cfg: Record<string, any>): void {
     map.setMaxBounds(bounds);
   }
   map.setView(map.unproject([wpx / 2, hpx / 2], maxNative), defaultZoom);
+  renderMarkers(map, el);
   // Containers sized via CSS can mis-measure on first paint; nudge Leaflet.
   setTimeout(() => map.invalidateSize(), 0);
+}
+
+function escapeHtml(s: string): string {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function renderMarkers(map: any, el: HTMLElement): void {
+  const raw = el.dataset.markers;
+  if (!raw) return;
+  let ms: Array<Record<string, any>>;
+  try {
+    ms = JSON.parse(decodeB64(raw));
+  } catch {
+    return;
+  }
+  if (!Array.isArray(ms)) return;
+  ms.forEach((m) => {
+    if (typeof m.lat !== "number" || typeof m.lng !== "number") return;
+    const linked = typeof m.href === "string" && m.href.length > 0;
+    const marker = L.circleMarker([m.lat, m.lng], {
+      radius: 5,
+      weight: 2,
+      color: linked ? "#2f6f5e" : "#c98f2f",
+      fillColor: linked ? "#3bb38f" : "#e0b25a",
+      fillOpacity: 0.85,
+    });
+    const title = m.title ? escapeHtml(m.title) : "";
+    if (title) marker.bindTooltip(title);
+    if (linked) {
+      marker.bindPopup(
+        '<a href="' + escapeHtml(m.href) + '" class="internal">' + (title || "Open note") + "</a>",
+      );
+    }
+    marker.addTo(map);
+  });
 }
 
 function initOltMaps(): void {
