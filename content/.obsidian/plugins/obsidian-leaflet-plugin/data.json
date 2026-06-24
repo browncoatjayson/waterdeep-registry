@@ -2,11 +2,11 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1782317310140,
+      "lastAccessed": 1782331619733,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             19.576356207045063,
             -128.10637245491304
@@ -22,7 +22,7 @@
         },
         {
           "id": "ID_abbb09fa0918",
-          "type": "default",
+          "type": "Business",
           "loc": [
             7.52494117293696,
             -66.99541121487914
@@ -39,7 +39,7 @@
         },
         {
           "id": "ID_897b2949eaea",
-          "type": "default",
+          "type": "Temple",
           "loc": [
             4.938334956613143,
             -66.7196292122069
@@ -56,7 +56,7 @@
         },
         {
           "id": "ID_db89796afa5b",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             5.000249412502496,
             -69.14340343287563
@@ -73,7 +73,7 @@
         },
         {
           "id": "ID_a8491aca0bf9",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             9.369314101318286,
             -66.73516622644193
@@ -90,7 +90,7 @@
         },
         {
           "id": "ID_99f9aa791b38",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             9.139052745258855,
             -66.32731960277172
@@ -107,7 +107,7 @@
         },
         {
           "id": "ID_1849aa2839d8",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             8.747676411890557,
             -66.04765334654073
@@ -124,7 +124,7 @@
         },
         {
           "id": "ID_e8da88697bb8",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             7.794412589040561,
             -65.8145981330149
@@ -141,7 +141,7 @@
         },
         {
           "id": "ID_890af8796809",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             7.2244759583968925,
             -65.7912926116623
@@ -158,7 +158,7 @@
         },
         {
           "id": "ID_6b4adbe91bb9",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             6.669251884734369,
             -65.6281539621942
@@ -175,7 +175,7 @@
         },
         {
           "id": "ID_2a9968b82bc8",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             6.051599796129355,
             -65.55046889101894
@@ -192,7 +192,7 @@
         },
         {
           "id": "ID_5b6a2aaa4b18",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             5.572429690903467,
             -65.35625621308074
@@ -209,7 +209,7 @@
         },
         {
           "id": "ID_fbc9e9dababa",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             4.473555188174249,
             -64.66485907962073
@@ -226,7 +226,7 @@
         },
         {
           "id": "ID_eacbcb19d899",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             9.752370139173285,
             -68.30200195312501
@@ -311,7 +311,7 @@
         },
         {
           "id": "ID_7bdb689bd9bb",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             10.320323625412541,
             -69.54895019531251
@@ -328,7 +328,7 @@
         },
         {
           "id": "ID_9b1808085978",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             9.708887865934848,
             -69.52423095703126
@@ -345,7 +345,7 @@
         },
         {
           "id": "ID_f918790aa848",
-          "type": "default",
+          "type": "Business",
           "loc": [
             9.150739872788337,
             -69.48577880859376
@@ -362,7 +362,7 @@
         },
         {
           "id": "ID_5919c93a788b",
-          "type": "default",
+          "type": "Business",
           "loc": [
             7.632750169621161,
             -69.39587991419528
@@ -379,7 +379,7 @@
         },
         {
           "id": "ID_6b9aabebd838",
-          "type": "default",
+          "type": "Business",
           "loc": [
             7.062603691520022,
             -69.35703737860766
@@ -396,7 +396,7 @@
         },
         {
           "id": "ID_383beb98b8f8",
-          "type": "default",
+          "type": "Business",
           "loc": [
             6.461118934016673,
             -69.2754680538736
@@ -413,7 +413,7 @@
         },
         {
           "id": "ID_68eb28eb48ab",
-          "type": "default",
+          "type": "Business",
           "loc": [
             5.912769628979951,
             -69.2210885040509
@@ -430,7 +430,7 @@
         },
         {
           "id": "ID_79ea4aa8e9da",
-          "type": "default",
+          "type": "Business",
           "loc": [
             4.194931086430543,
             -69.21331999693338
@@ -447,7 +447,7 @@
         },
         {
           "id": "ID_9a690a4bbbbb",
-          "type": "default",
+          "type": "Business",
           "loc": [
             3.605652384675354,
             -69.16282470066945
@@ -464,7 +464,7 @@
         },
         {
           "id": "ID_183b5a18a9c8",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             2.7371628667703667,
             -69.12786641864056
@@ -481,7 +481,7 @@
         },
         {
           "id": "ID_2978490a492a",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             2.7061238898961193,
             -68.52192286347338
@@ -498,7 +498,7 @@
         },
         {
           "id": "ID_fa396818b92a",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             2.7216434782498213,
             -68.04804392930417
@@ -515,7 +515,7 @@
         },
         {
           "id": "ID_38bb1a194a98",
-          "type": "default",
+          "type": "Warehouse",
           "loc": [
             2.7294031975602446,
             -67.5819335022525
@@ -532,7 +532,7 @@
         },
         {
           "id": "ID_988a6adb290b",
-          "type": "default",
+          "type": "Business",
           "loc": [
             2.7371628667703667,
             -67.00706397555543
@@ -549,7 +549,7 @@
         },
         {
           "id": "ID_b8da09aafb8b",
-          "type": "default",
+          "type": "Warehouse",
           "loc": [
             2.915621104375115,
             -66.6108701125615
@@ -583,7 +583,7 @@
         },
         {
           "id": "ID_6b68e93a593a",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             3.4042914221668292,
             -65.87286193639635
@@ -600,7 +600,7 @@
         },
         {
           "id": "ID_18980b5ad939",
-          "type": "default",
+          "type": "Business",
           "loc": [
             3.706437431209318,
             -65.42617277713849
@@ -617,7 +617,7 @@
         },
         {
           "id": "ID_6abba8285818",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             4.101953255327118,
             -65.03386316770333
@@ -634,7 +634,7 @@
         },
         {
           "id": "ID_da5a7ac9dbd8",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             -47.081573939131,
             -47.82273564882007
@@ -682,7 +682,7 @@
         },
         {
           "id": "ID_d93a58ca2848",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -49.23180333947143,
             -43.69765836941271
@@ -698,7 +698,7 @@
         },
         {
           "id": "ID_5a3b38daaab8",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             -47.18198941826074,
             -41.91090173238127
@@ -714,7 +714,7 @@
         },
         {
           "id": "ID_db9acbf808b8",
-          "type": "default",
+          "type": "Guildhouse",
           "loc": [
             -47.09727635581116,
             -40.027038756380726
@@ -730,7 +730,7 @@
         },
         {
           "id": "ID_eafb481bcaa9",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             -63.34735543705361,
             -62.14416503906251
@@ -746,7 +746,7 @@
         },
         {
           "id": "ID_2afaf93bf9ca",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             -69.54925151653063,
             -65.36790897375703
@@ -762,7 +762,7 @@
         },
         {
           "id": "ID_3a298a0b9a39",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             -59.009544539220656,
             -86.42120361328126
@@ -778,7 +778,7 @@
         },
         {
           "id": "ID_3b7978890be8",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             -59.662278582272926,
             -94.52362060546876
@@ -794,7 +794,7 @@
         },
         {
           "id": "ID_db78eb7a8b98",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             -57.78037554816887,
             -100.38208007812501
@@ -810,7 +810,7 @@
         },
         {
           "id": "ID_4ac9db5a1978",
-          "type": "default",
+          "type": "City Building",
           "loc": [
             -31.99210418725137,
             -108.29667930521668
@@ -826,7 +826,7 @@
         },
         {
           "id": "ID_8b8bca1b3919",
-          "type": "default",
+          "type": "Monument",
           "loc": [
             -34.08239185559828,
             -103.21607565035337
@@ -842,7 +842,7 @@
         },
         {
           "id": "ID_8a6959fa0b09",
-          "type": "default",
+          "type": "City Building",
           "loc": [
             -27.143068698250232,
             -108.66956764685804
@@ -858,7 +858,7 @@
         },
         {
           "id": "ID_5a1a18592b08",
-          "type": "default",
+          "type": "Business",
           "loc": [
             48.946492762162606,
             -63.3092545876121
@@ -874,7 +874,7 @@
         },
         {
           "id": "ID_7a0ba9ca1b38",
-          "type": "default",
+          "type": "Business",
           "loc": [
             48.87501262122381,
             -61.040850509293946
@@ -890,7 +890,7 @@
         },
         {
           "id": "ID_2b6beacaa909",
-          "type": "default",
+          "type": "Business",
           "loc": [
             48.82373292757179,
             -58.745256656064406
@@ -906,7 +906,7 @@
         },
         {
           "id": "ID_4ad94a89e8cb",
-          "type": "default",
+          "type": "Business",
           "loc": [
             47.63354256958755,
             -59.195830068881044
@@ -922,10 +922,10 @@
         },
         {
           "id": "ID_8b39f8ea9949",
-          "type": "default",
+          "type": "Business",
           "loc": [
-            47.29743050036863,
-            -57.22262926102893
+            47.297859249409825,
+            -57.249755859375
           ],
           "layer": "https%3A%2F%2Fraw.githubusercontent.com%2Fbrowncoatjayson%2Fwaterdeep-registry%2Frefs%2Fheads%2Fmain%2F_tiles%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
@@ -938,7 +938,7 @@
         },
         {
           "id": "ID_0aa918b9ba09",
-          "type": "default",
+          "type": "Business",
           "loc": [
             47.96230492897429,
             -56.8808149478577
@@ -954,7 +954,7 @@
         },
         {
           "id": "ID_29a9fa6b3a78",
-          "type": "default",
+          "type": "Warehouse",
           "loc": [
             47.92083531348411,
             -55.29215524232322
@@ -970,7 +970,7 @@
         },
         {
           "id": "ID_98798b196b1a",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -73.78254002627226,
             -36.18939624032191
@@ -986,7 +986,7 @@
         },
         {
           "id": "ID_1bf9a9ab2a0b",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -73.10306362901022,
             -37.13326985510155
@@ -1002,7 +1002,7 @@
         },
         {
           "id": "ID_69282b2a79d9",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -73.28499762748368,
             -33.13248868957464
@@ -1018,7 +1018,7 @@
         },
         {
           "id": "ID_6ae9e81b2b6a",
-          "type": "default",
+          "type": "Warehouse",
           "loc": [
             -72.63630279275179,
             -37.141038362219085
@@ -1034,7 +1034,7 @@
         },
         {
           "id": "ID_197b9b0bab48",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -72.59452289917246,
             -38.19755533020289
@@ -1050,7 +1050,7 @@
         },
         {
           "id": "ID_49ab4a3bc9aa",
-          "type": "default",
+          "type": "Guildhouse",
           "loc": [
             -71.4313653419165,
             -38.06160645564615
@@ -1066,7 +1066,7 @@
         },
         {
           "id": "ID_d92a19494b2a",
-          "type": "default",
+          "type": "City Building",
           "loc": [
             -70.7977733321236,
             -39.343410130038265
@@ -1082,7 +1082,7 @@
         },
         {
           "id": "ID_0bc9195a98fb",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -70.57690275021176,
             -34.74056966290293
@@ -1098,7 +1098,7 @@
         },
         {
           "id": "ID_a99ad8d9f97b",
-          "type": "default",
+          "type": "Business",
           "loc": [
             33.299971947734335,
             -133.04714298166087
@@ -1115,7 +1115,7 @@
         },
         {
           "id": "ID_0a3848d80aa8",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             32.392800468053125,
             -131.61773767203573
@@ -1132,7 +1132,7 @@
         },
         {
           "id": "ID_39f9793b6aa8",
-          "type": "default",
+          "type": "Temple",
           "loc": [
             34.81855520439105,
             -128.5996726568761
@@ -1367,9 +1367,139 @@
       "size": 6,
       "x": 0,
       "y": -2
-    }
+    },
+    "isImage": false
   },
-  "markerIcons": [],
+  "markerIcons": [
+    {
+      "type": "Business",
+      "iconName": "map-marker",
+      "color": "#3f5970",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Residence",
+      "iconName": "map-marker",
+      "color": "#406f44",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Public House",
+      "iconName": "map-marker",
+      "color": "#6f4040",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "City Building",
+      "iconName": "map-marker",
+      "color": "#5a3f6f",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Warehouse",
+      "iconName": "map-marker",
+      "color": "#6f6040",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Monument",
+      "iconName": "map-marker",
+      "color": "#707070",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Guildhouse",
+      "iconName": "map-marker",
+      "color": "#6f6f40",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Temple",
+      "iconName": "map-marker",
+      "color": "#706840",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
   "color": "#dddddd",
   "lat": 39.983334,
   "long": -82.98333,
@@ -1390,8 +1520,8 @@
   "mapViewParameters": {},
   "enableDraw": true,
   "defaultUnitType": "imperial",
-  "defaultTile": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
-  "defaultTileDark": "https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png",
+  "defaultTile": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+  "defaultTileDark": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
   "defaultAttribution": "Waterdeep City Map is unofficial Fan Content created by <a href=\"https://tychmaps.com\">Tych Maps</a>, permitted under the <a href=\"https://company.wizards.com/en/legal/fancontentpolicy\">Fan Content Policy</a>. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;<a href=\"https://company.wizards.com\">Wizards of the Coast LLC.</a>",
   "defaultTileSubdomains": ""
 }

@@ -47,6 +47,22 @@ function rawMarkersForMap(contentDir, mapId) {
   const entry = list.find((m) => m?.id === mapId);
   return Array.isArray(entry?.markers) ? entry.markers : [];
 }
+var FALLBACK_COLOR = "#888888";
+function buildColorMap(contentDir) {
+  const data = loadData(contentDir);
+  const map = /* @__PURE__ */ new Map();
+  const dm = data?.defaultMarker;
+  map.set("default", typeof dm?.color === "string" ? dm.color : FALLBACK_COLOR);
+  const list = data?.markerIcons;
+  if (Array.isArray(list)) {
+    for (const t of list) {
+      if (t?.type) {
+        map.set(String(t.type), typeof t.color === "string" ? t.color : FALLBACK_COLOR);
+      }
+    }
+  }
+  return map;
+}
 function mercatorY(lat) {
   return Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
 }
@@ -54,9 +70,7 @@ function applyTransform(loc, t) {
   const lat = loc[0];
   const lng = loc[1];
   const py = t.mode === "mercator" ? mercatorY(lat) : lat;
-  const ourLng = t.A * lng + t.B * py + t.C;
-  const ourLat = t.D * lng + t.E * py + t.F;
-  return [ourLat, ourLng];
+  return [t.D * lng + t.E * py + t.F, t.A * lng + t.B * py + t.C];
 }
 function endsWith(s, suffix) {
   return s === suffix || s.endsWith("/" + suffix);
@@ -96,31 +110,56 @@ function buildSlugIndex(allSlugs) {
   }
   return idx;
 }
-function buildMarkers(contentDir, mapId, transform, currentSlug, slugIndex) {
-  const out = [];
+function buildMarkerData(contentDir, mapId, transform, currentSlug, slugIndex) {
+  const colors = buildColorMap(contentDir);
+  const markers = [];
   for (const m of rawMarkersForMap(contentDir, mapId)) {
     if (!Array.isArray(m.loc) || typeof m.loc[0] !== "number" || typeof m.loc[1] !== "number") {
       continue;
     }
     const title = (m.description ?? "").toString().trim();
     if (!title && !m.link) continue;
+    const type = (m.type ?? "default").toString() || "default";
     const [lat, lng] = applyTransform(m.loc, transform);
-    const marker = { lat, lng, title };
+    const marker = {
+      lat,
+      lng,
+      title,
+      type,
+      color: colors.get(type) ?? FALLBACK_COLOR
+    };
     if (m.link) {
       const targetSlug = slugIndex.get(m.link.toLowerCase());
       if (targetSlug) marker.href = resolveRelative(currentSlug, targetSlug);
     }
-    out.push(marker);
+    markers.push(marker);
   }
-  return out;
+  const seen = /* @__PURE__ */ new Map();
+  for (const mk of markers) {
+    const e = seen.get(mk.type) ?? { color: mk.color, count: 0 };
+    e.count += 1;
+    seen.set(mk.type, e);
+  }
+  const types = [...seen.entries()].map(([type, e]) => ({
+    type,
+    label: type === "default" ? "Uncategorised" : type,
+    color: e.color,
+    count: e.count
+  }));
+  types.sort((a, b) => {
+    if (a.type === "default") return 1;
+    if (b.type === "default") return -1;
+    return a.label.localeCompare(b.label);
+  });
+  return { markers, types };
 }
 
 // src/scripts/leaflet-map.inline.ts
-var leaflet_map_inline_default = `var b="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";function l(n,t){let e=typeof n=="number"?n:parseFloat(String(n));return Number.isFinite(e)?e:t}function w(n){let t=atob(n);try{return decodeURIComponent(Array.prototype.map.call(t,e=>"%"+("00"+e.charCodeAt(0).toString(16)).slice(-2)).join(""))}catch{return t}}function v(n,t,e){return Math.max(1,Math.ceil(n/Math.pow(2,e-t)))}function Z(n,t){if(typeof L>"u")return;let e=String(t.tileServer||"");if(!e)return;let o=l(t.minZoom,0),r=l(t.maxZoom,8),u=l(t.defaultZoom,o),a=l(t.zoomDelta,1),s=256,c=Math.round(r),z=/\\{-y\\}/.test(e),f=1,A=1,m=t.bounds;Array.isArray(m)&&Array.isArray(m[1])&&(f=l(m[1][0],1),A=l(m[1][1],1));let i=L.map(n,{crs:L.CRS.Simple,minZoom:o,maxZoom:r,zoomSnap:a>0?a:1,zoomDelta:a>0?a:1,attributionControl:!1}),N=L.TileLayer.extend({getTileUrl:function(y){let d=y.z,g=y.x,p=y.y;if(d<0||d>c)return b;let R=v(f,d,c),E=v(A,d,c);if(g<0||p<0||g>=R||p>=E)return b;let M=z?E-1-p:p;return e.replace("{z}",String(d)).replace("{x}",String(g)).replace("{-y}",String(M)).replace("{y}",String(M))}}),h=f*s,x=A*s,T=L.latLngBounds(i.unproject([0,0],c),i.unproject([h,x],c));new N("",{tileSize:s,noWrap:t.noWrap!==!1,minNativeZoom:0,maxNativeZoom:c,bounds:T,errorTileUrl:b}).addTo(i),t.maxBounds!==void 0&&i.setMaxBounds(T),i.setView(i.unproject([h/2,x/2],c),u),B(i,n),setTimeout(()=>i.invalidateSize(),0)}function C(n){return String(n).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function B(n,t){let e=t.dataset.markers;if(!e)return;let o;try{o=JSON.parse(w(e))}catch{return}Array.isArray(o)&&o.forEach(r=>{if(typeof r.lat!="number"||typeof r.lng!="number")return;let u=typeof r.href=="string"&&r.href.length>0,a=L.circleMarker([r.lat,r.lng],{radius:5,weight:2,color:u?"#2f6f5e":"#c98f2f",fillColor:u?"#3bb38f":"#e0b25a",fillOpacity:.85}),s=r.title?C(r.title):"";s&&a.bindTooltip(s),u&&a.bindPopup('<a href="'+C(r.href)+'" class="internal">'+(s||"Open note")+"</a>"),a.addTo(n)})}function S(){document.querySelectorAll(".olt-map").forEach(t=>{if(t.dataset.oltInit==="1")return;let e=t.dataset.olt;if(!e)return;let o;try{o=JSON.parse(w(e))}catch{return}t.dataset.oltInit="1",Z(t,o)})}S();document.addEventListener("nav",S);document.addEventListener("render",S);
+var leaflet_map_inline_default = `var b="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";function f(t,e){let r=typeof t=="number"?t:parseFloat(String(t));return Number.isFinite(r)?r:e}function R(t){let e=atob(t);try{return decodeURIComponent(Array.prototype.map.call(e,r=>"%"+("00"+r.charCodeAt(0).toString(16)).slice(-2)).join(""))}catch{return e}}function k(t){if(!t)return null;try{return JSON.parse(R(t))}catch{return null}}function w(t,e,r){return Math.max(1,Math.ceil(t/Math.pow(2,r-e)))}function y(t){return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function Z(t,e){if(typeof L>"u")return;let r=String(e.tileServer||"");if(!r)return;let s=f(e.minZoom,0),i=f(e.maxZoom,8),c=f(e.defaultZoom,s),a=f(e.zoomDelta,1),n=256,o=Math.round(i),l=/\\{-y\\}/.test(r),u=1,d=1,m=e.bounds;Array.isArray(m)&&Array.isArray(m[1])&&(u=f(m[1][0],1),d=f(m[1][1],1));let p=L.map(t,{crs:L.CRS.Simple,minZoom:s,maxZoom:i,zoomSnap:a>0?a:1,zoomDelta:a>0?a:1,attributionControl:!1}),D=L.TileLayer.extend({getTileUrl:function(A){let g=A.z,S=A.x,h=A.y;if(g<0||g>o)return b;let H=w(u,g,o),x=w(d,g,o);if(S<0||h<0||S>=H||h>=x)return b;let C=l?x-1-h:h;return r.replace("{z}",String(g)).replace("{x}",String(S)).replace("{-y}",String(C)).replace("{y}",String(C))}}),T=u*n,E=d*n,M=L.latLngBounds(p.unproject([0,0],o),p.unproject([T,E],o));new D("",{tileSize:n,noWrap:e.noWrap!==!1,minNativeZoom:0,maxNativeZoom:o,bounds:M,errorTileUrl:b}).addTo(p),e.maxBounds!==void 0&&p.setMaxBounds(M),p.setView(p.unproject([T/2,E/2],o),c),q(p,t),setTimeout(()=>p.invalidateSize(),0)}function q(t,e){let r=k(e.dataset.markers),s=k(e.dataset.types);if(!Array.isArray(r)||r.length===0)return;let i=Array.isArray(s)?s:[],c={};i.forEach(n=>{c[n.type]=L.layerGroup().addTo(t)});let a=[];r.forEach(n=>{if(typeof n.lat!="number"||typeof n.lng!="number")return;let o=typeof n.href=="string"&&n.href.length>0,l=L.circleMarker([n.lat,n.lng],{radius:5,weight:2,color:"#1c1c1c",fillColor:typeof n.color=="string"?n.color:"#888888",fillOpacity:.9}),u=n.title?y(String(n.title)):"";u&&l.bindTooltip(u),o&&l.bindPopup('<a href="'+y(String(n.href))+'" class="internal">'+(u||"Open note")+"</a>");let d=c[n.type];d||(d=c[n.type]=L.layerGroup().addTo(t)),l.addTo(d),n.title&&a.push({q:String(n.title).toLowerCase(),title:String(n.title),lat:n.lat,lng:n.lng,cm:l})}),i.length>1&&z(t,i,c),a.length>0&&N(t,a)}function z(t,e,r){let s=L.control({position:"topright"});s.onAdd=function(){let i=L.DomUtil.create("div","olt-filter");return i.innerHTML='<div class="olt-filter-head">Filter</div>',e.forEach(c=>{let a=L.DomUtil.create("label","olt-filter-row",i);a.innerHTML='<input type="checkbox" checked> <span class="olt-swatch" style="background:'+y(String(c.color))+'"></span><span class="olt-flabel">'+y(String(c.label))+'</span><span class="olt-fcount">'+Number(c.count)+"</span>";let n=a.querySelector("input");n.addEventListener("change",()=>{let o=r[c.type];o&&(n.checked?o.addTo(t):t.removeLayer(o))})}),L.DomEvent.disableClickPropagation(i),L.DomEvent.disableScrollPropagation(i),i},s.addTo(t)}function N(t,e){let r="olt-list-"+Math.random().toString(36).slice(2,8),s=L.control({position:"topleft"});s.onAdd=function(){let i=L.DomUtil.create("div","olt-search"),c=e.map(o=>'<option value="'+y(o.title)+'">').join("");i.innerHTML='<input type="text" class="olt-search-input" placeholder="Search pins\\u2026" list="'+r+'"><datalist id="'+r+'">'+c+"</datalist>";let a=i.querySelector("input"),n=()=>{let o=a.value.trim().toLowerCase();if(!o)return;let l=e.find(d=>d.q===o)||e.find(d=>d.q.indexOf(o)!==-1);if(!l)return;let u=Math.min(t.getMaxZoom(),Math.max(t.getZoom(),7.5));t.setView([l.lat,l.lng],u),l.cm.getPopup&&l.cm.getPopup()?l.cm.openPopup():l.cm.openTooltip&&l.cm.openTooltip()};return a.addEventListener("change",n),a.addEventListener("keydown",o=>{o.key==="Enter"&&n()}),L.DomEvent.disableClickPropagation(i),i},s.addTo(t)}function v(){document.querySelectorAll(".olt-map").forEach(t=>{if(t.dataset.oltInit==="1")return;let e=t.dataset.olt;if(!e)return;let r;try{r=JSON.parse(R(e))}catch{return}t.dataset.oltInit="1",Z(t,r)})}v();document.addEventListener("nav",v);document.addEventListener("render",v);
 `;
 
 // src/styles/leaflet-map.scss
-var leaflet_map_default = ".olt-map {\n  width: 100%;\n  margin: 1rem 0;\n  border-radius: 6px;\n  overflow: hidden;\n  background: #0b0c0e;\n}\n.olt-map img {\n  max-width: none !important;\n  padding: 0 !important;\n  border: none !important;\n}\n\n.leaflet-container {\n  background: #0b0c0e;\n  font: inherit;\n  z-index: 0;\n}\n.leaflet-container img {\n  max-width: none !important;\n}";
+var leaflet_map_default = ".olt-map {\n  width: 100%;\n  margin: 1rem 0;\n  border-radius: 6px;\n  overflow: hidden;\n  background: #0b0c0e;\n}\n.olt-map img {\n  max-width: none !important;\n  padding: 0 !important;\n  border: none !important;\n}\n\n.leaflet-container {\n  background: #0b0c0e;\n  font: inherit;\n  z-index: 0;\n}\n.leaflet-container img {\n  max-width: none !important;\n}\n\n.olt-filter,\n.olt-search {\n  background: rgba(20, 22, 26, 0.92);\n  color: #e6e6e6;\n  border-radius: 6px;\n  padding: 6px 8px;\n  font: 13px/1.3 system-ui, sans-serif;\n  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);\n}\n\n.olt-filter-head {\n  font-weight: 600;\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 0.04em;\n  color: #8fb3a8;\n  margin-bottom: 4px;\n}\n\n.olt-filter-row {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  cursor: pointer;\n  padding: 2px 0;\n}\n\n.olt-filter-row input {\n  margin: 0;\n}\n\n.olt-swatch {\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  display: inline-block;\n  flex: 0 0 auto;\n  border: 1px solid rgba(255, 255, 255, 0.4);\n}\n\n.olt-flabel {\n  flex: 1;\n}\n\n.olt-fcount {\n  opacity: 0.6;\n  font-size: 11px;\n}\n\n.olt-search-input {\n  background: #2a2d31;\n  color: #fff;\n  border: 1px solid #444;\n  border-radius: 4px;\n  padding: 4px 6px;\n  font-size: 13px;\n  width: 170px;\n}";
 
 // src/transformer.ts
 var DEFAULT_LEAFLET_CSS = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
@@ -157,15 +196,19 @@ var ObsidianLeafletTiles = (opts) => {
             const json = Buffer.from(JSON.stringify(config), "utf-8").toString("base64");
             const height = toCssSize(config.height, "600px");
             const width = toCssSize(config.width, "100%");
-            const markers = config.id ? buildMarkers(
+            const data = config.id ? buildMarkerData(
               contentDir,
               String(config.id),
               markerTransform,
               currentSlug,
               slugIndex
-            ) : [];
+            ) : { markers: [], types: [] };
             const markersB64 = Buffer.from(
-              JSON.stringify(markers),
+              JSON.stringify(data.markers),
+              "utf-8"
+            ).toString("base64");
+            const typesB64 = Buffer.from(
+              JSON.stringify(data.types),
               "utf-8"
             ).toString("base64");
             node.data = node.data || {};
@@ -174,6 +217,7 @@ var ObsidianLeafletTiles = (opts) => {
               className: ["olt-map"],
               dataOlt: json,
               dataMarkers: markersB64,
+              dataTypes: typesB64,
               style: `height:${height};width:${width};max-width:${width};`
             };
             node.data.hChildren = [];

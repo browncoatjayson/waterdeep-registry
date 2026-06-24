@@ -1,7 +1,7 @@
 import { visit } from "unist-util-visit";
 import type { QuartzTransformerPlugin } from "@quartz-community/types";
 import { parseLeafletBlock, toCssSize } from "./parse";
-import { buildMarkers, buildSlugIndex } from "./markers";
+import { buildMarkerData, buildSlugIndex } from "./markers";
 import type { MarkerTransform } from "./types";
 // These two imports resolve to strings at build time (see tsup.config.ts):
 import leafletMapScript from "./scripts/leaflet-map.inline";
@@ -25,15 +25,9 @@ const DEFAULT_MARKER_TRANSFORM: MarkerTransform = {
 export interface ObsidianLeafletTilesOptions {
   leafletCss?: string;
   leafletJs?: string;
-  /** Maps obsidian-leaflet marker coordinates onto the tiled map. */
   markerTransform?: Partial<MarkerTransform>;
 }
 
-/**
- * Quartz v5 transformer. Renders ```leaflet code blocks as tiled Leaflet maps,
- * and (Phase 2) reads markers from obsidian-leaflet's data.json, transforms
- * their coordinates onto the map, and links each to its note.
- */
 export const ObsidianLeafletTiles: QuartzTransformerPlugin<
   Partial<ObsidianLeafletTilesOptions>
 > = (opts) => {
@@ -63,17 +57,21 @@ export const ObsidianLeafletTiles: QuartzTransformerPlugin<
             const height = toCssSize(config.height, "600px");
             const width = toCssSize(config.width, "100%");
 
-            const markers = config.id
-              ? buildMarkers(
+            const data = config.id
+              ? buildMarkerData(
                   contentDir,
                   String(config.id),
                   markerTransform,
                   currentSlug,
                   slugIndex,
                 )
-              : [];
+              : { markers: [], types: [] };
             const markersB64 = Buffer.from(
-              JSON.stringify(markers),
+              JSON.stringify(data.markers),
+              "utf-8",
+            ).toString("base64");
+            const typesB64 = Buffer.from(
+              JSON.stringify(data.types),
               "utf-8",
             ).toString("base64");
 
@@ -83,6 +81,7 @@ export const ObsidianLeafletTiles: QuartzTransformerPlugin<
               className: ["olt-map"],
               dataOlt: json,
               dataMarkers: markersB64,
+              dataTypes: typesB64,
               style: `height:${height};width:${width};max-width:${width};`,
             };
             node.data.hChildren = [];

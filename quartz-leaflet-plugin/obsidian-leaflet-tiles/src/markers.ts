@@ -1,17 +1,22 @@
 import fs from "fs";
 import path from "path";
-import type { MarkerTransform, RenderMarker } from "./types";
+import type {
+  MarkerTransform,
+  RenderMarker,
+  MarkerTypeInfo,
+  MarkerData,
+} from "./types";
 
 // ---------------------------------------------------------------------------
-// Reading obsidian-leaflet's marker data (its plugin data.json), at build time.
-// We parse defensively: any shape we don't recognise yields no markers, never a
-// crash. The file must be committed for CI to see it (it lives under .obsidian).
+// Reading obsidian-leaflet's data.json at build time (defensive: any unexpected
+// shape yields no markers, never a crash). Must be committed for CI to see it.
 // ---------------------------------------------------------------------------
 
 interface RawMarker {
   loc?: [number, number];
   description?: string | null;
   link?: string | null;
+  type?: string | null;
 }
 
 let cache: unknown = null;
@@ -43,6 +48,25 @@ function rawMarkersForMap(contentDir: string, mapId: string): RawMarker[] {
   return Array.isArray(entry?.markers) ? entry.markers : [];
 }
 
+const FALLBACK_COLOR = "#888888";
+
+/** type name -> colour, from obsidian-leaflet's markerIcons + defaultMarker. */
+function buildColorMap(contentDir: string): Map<string, string> {
+  const data = loadData(contentDir);
+  const map = new Map<string, string>();
+  const dm = data?.defaultMarker;
+  map.set("default", typeof dm?.color === "string" ? dm.color : FALLBACK_COLOR);
+  const list = data?.markerIcons;
+  if (Array.isArray(list)) {
+    for (const t of list) {
+      if (t?.type) {
+        map.set(String(t.type), typeof t.color === "string" ? t.color : FALLBACK_COLOR);
+      }
+    }
+  }
+  return map;
+}
+
 // ---------------------------------------------------------------------------
 // Coordinate transform: geographic (lat/lng) -> our CRS.Simple map coords.
 // ---------------------------------------------------------------------------
@@ -50,24 +74,16 @@ function rawMarkersForMap(contentDir: string, mapId: string): RawMarker[] {
 function mercatorY(lat: number): number {
   return Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
 }
-
-function applyTransform(
-  loc: [number, number],
-  t: MarkerTransform,
-): [number, number] {
+function applyTransform(loc: [number, number], t: MarkerTransform): [number, number] {
   const lat = loc[0];
   const lng = loc[1];
   const py = t.mode === "mercator" ? mercatorY(lat) : lat;
-  const ourLng = t.A * lng + t.B * py + t.C;
-  const ourLat = t.D * lng + t.E * py + t.F;
-  return [ourLat, ourLng]; // Leaflet order: [lat, lng]
+  return [t.D * lng + t.E * py + t.F, t.A * lng + t.B * py + t.C];
 }
 
 // ---------------------------------------------------------------------------
-// Link resolution. obsidian-leaflet stores a marker's link as a note name; we
-// resolve it to that note's published URL, relative to the current page, using
-// the same logic as Quartz's own internal links (replicated from
-// @quartz-community/utils so links behave identically to every other link).
+// Link resolution (replicated from @quartz-community/utils so links behave
+// exactly like every other Quartz internal link).
 // ---------------------------------------------------------------------------
 
 function endsWith(s: string, suffix: string): boolean {
@@ -97,22 +113,15 @@ function pathToRoot(slug: string): string {
   return rootPath;
 }
 function joinSegments(...args: string[]): string {
-  return args
-    .filter((s) => s.length > 0)
-    .join("/")
-    .replace(/\/+/g, "/");
+  return args.filter((s) => s.length > 0).join("/").replace(/\/+/g, "/");
 }
 function resolveRelative(current: string, target: string): string {
   return joinSegments(pathToRoot(current), simplifySlug(target));
 }
-
-/** basename of a slug, lowercased (for case-tolerant link matching). */
 function lastSegment(slug: string): string {
   const parts = slug.split("/").filter((x) => x !== "");
   return (parts[parts.length - 1] ?? "").toLowerCase();
 }
-
-/** Map a note name (basename) -> its full slug. */
 export function buildSlugIndex(allSlugs: string[]): Map<string, string> {
   const idx = new Map<string, string>();
   for (const slug of allSlugs) {
@@ -123,36 +132,64 @@ export function buildSlugIndex(allSlugs: string[]): Map<string, string> {
 }
 
 // ---------------------------------------------------------------------------
-// Public: build render-ready markers for one map block.
+// Public: render-ready markers + the type legend for one map block.
 // ---------------------------------------------------------------------------
 
-export function buildMarkers(
+export function buildMarkerData(
   contentDir: string,
   mapId: string,
   transform: MarkerTransform,
   currentSlug: string,
   slugIndex: Map<string, string>,
-): RenderMarker[] {
-  const out: RenderMarker[] = [];
+): MarkerData {
+  const colors = buildColorMap(contentDir);
+  const markers: RenderMarker[] = [];
+
   for (const m of rawMarkersForMap(contentDir, mapId)) {
     if (
       !Array.isArray(m.loc) ||
       typeof m.loc[0] !== "number" ||
       typeof m.loc[1] !== "number"
     ) {
-      continue; // skip markers without valid coordinates
+      continue;
     }
     const title = (m.description ?? "").toString().trim();
-    // Skip blank markers: no label AND no link convey nothing — almost always a
-    // stray click in Obsidian. (A description-only or link-only marker is kept.)
-    if (!title && !m.link) continue;
+    if (!title && !m.link) continue; // skip blank markers (stray clicks)
+
+    const type = (m.type ?? "default").toString() || "default";
     const [lat, lng] = applyTransform(m.loc as [number, number], transform);
-    const marker: RenderMarker = { lat, lng, title };
+    const marker: RenderMarker = {
+      lat,
+      lng,
+      title,
+      type,
+      color: colors.get(type) ?? FALLBACK_COLOR,
+    };
     if (m.link) {
       const targetSlug = slugIndex.get(m.link.toLowerCase());
       if (targetSlug) marker.href = resolveRelative(currentSlug, targetSlug);
     }
-    out.push(marker);
+    markers.push(marker);
   }
-  return out;
+
+  // Legend: the types actually present, with counts. "default" -> Uncategorised, sorted last.
+  const seen = new Map<string, { color: string; count: number }>();
+  for (const mk of markers) {
+    const e = seen.get(mk.type) ?? { color: mk.color, count: 0 };
+    e.count += 1;
+    seen.set(mk.type, e);
+  }
+  const types: MarkerTypeInfo[] = [...seen.entries()].map(([type, e]) => ({
+    type,
+    label: type === "default" ? "Uncategorised" : type,
+    color: e.color,
+    count: e.count,
+  }));
+  types.sort((a, b) => {
+    if (a.type === "default") return 1;
+    if (b.type === "default") return -1;
+    return a.label.localeCompare(b.label);
+  });
+
+  return { markers, types };
 }

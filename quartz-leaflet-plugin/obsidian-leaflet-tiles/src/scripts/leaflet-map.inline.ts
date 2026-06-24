@@ -1,10 +1,7 @@
-// Browser script. Runs after Leaflet (loaded from CDN) is available as the
-// global `L`. Finds every .olt-map div, reads its config, and renders a tiled
-// CRS.Simple map. Tile-Y inversion is computed against the REAL per-zoom tile
-// count (not 2^zoom), which is what Obsidian's non-power-of-two raster pyramids
-// require — verified empirically in dev/tile-test.html.
+// Browser script. Runs after Leaflet (global `L`) is loaded. Finds every
+// .olt-map div, renders the tiled map, its markers (coloured + grouped by type),
+// and adds search + type-filter controls.
 
-// Leaflet is a global provided by the CDN <script> tag.
 declare const L: any;
 
 const TRANSPARENT =
@@ -15,7 +12,6 @@ function num(v: unknown, fallback: number): number {
   return Number.isFinite(n) ? n : fallback;
 }
 
-// Decode base64 (UTF-8 safe) back to the JSON config string.
 function decodeB64(b64: string): string {
   const bin = atob(b64);
   try {
@@ -29,14 +25,30 @@ function decodeB64(b64: string): string {
   }
 }
 
-// Tiles at a given zoom = ceil(maxCount / 2^(maxNativeZoom - zoom)).
+function parseB64<T>(raw: string | undefined): T | null {
+  if (!raw) return null;
+  try {
+    return JSON.parse(decodeB64(raw)) as T;
+  } catch {
+    return null;
+  }
+}
+
 function tileCount(maxCount: number, z: number, maxNative: number): number {
   return Math.max(1, Math.ceil(maxCount / Math.pow(2, maxNative - z)));
 }
 
+function escapeHtml(s: string): string {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 function buildMap(el: HTMLElement, cfg: Record<string, any>): void {
   if (typeof L === "undefined") return;
-
   const tileServer: string = String(cfg.tileServer || "");
   if (!tileServer) return;
 
@@ -48,7 +60,6 @@ function buildMap(el: HTMLElement, cfg: Record<string, any>): void {
   const maxNative = Math.round(maxZoom);
   const invertY = /\{-y\}/.test(tileServer);
 
-  // bounds: [[x0,y0],[x1,y1]] — second corner gives max-zoom tile counts.
   let maxCountX = 1;
   let maxCountY = 1;
   const b = cfg.bounds;
@@ -100,58 +111,120 @@ function buildMap(el: HTMLElement, cfg: Record<string, any>): void {
     errorTileUrl: TRANSPARENT,
   }).addTo(map);
 
-  if (cfg.maxBounds !== undefined) {
-    map.setMaxBounds(bounds);
-  }
+  if (cfg.maxBounds !== undefined) map.setMaxBounds(bounds);
   map.setView(map.unproject([wpx / 2, hpx / 2], maxNative), defaultZoom);
   renderMarkers(map, el);
-  // Containers sized via CSS can mis-measure on first paint; nudge Leaflet.
   setTimeout(() => map.invalidateSize(), 0);
 }
 
-function escapeHtml(s: string): string {
-  return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+interface SearchEntry {
+  q: string;
+  title: string;
+  lat: number;
+  lng: number;
+  cm: any;
 }
 
 function renderMarkers(map: any, el: HTMLElement): void {
-  const raw = el.dataset.markers;
-  if (!raw) return;
-  let ms: Array<Record<string, any>>;
-  try {
-    ms = JSON.parse(decodeB64(raw));
-  } catch {
-    return;
-  }
-  if (!Array.isArray(ms)) return;
-  ms.forEach((m) => {
+  const markers = parseB64<Array<Record<string, any>>>(el.dataset.markers);
+  const types = parseB64<Array<Record<string, any>>>(el.dataset.types);
+  if (!Array.isArray(markers) || markers.length === 0) return;
+  const legend = Array.isArray(types) ? types : [];
+
+  const groups: Record<string, any> = {};
+  legend.forEach((t) => {
+    groups[t.type] = L.layerGroup().addTo(map);
+  });
+
+  const index: SearchEntry[] = [];
+  markers.forEach((m) => {
     if (typeof m.lat !== "number" || typeof m.lng !== "number") return;
     const linked = typeof m.href === "string" && m.href.length > 0;
-    const marker = L.circleMarker([m.lat, m.lng], {
+    const cm = L.circleMarker([m.lat, m.lng], {
       radius: 5,
       weight: 2,
-      color: linked ? "#2f6f5e" : "#c98f2f",
-      fillColor: linked ? "#3bb38f" : "#e0b25a",
-      fillOpacity: 0.85,
+      color: "#1c1c1c",
+      fillColor: typeof m.color === "string" ? m.color : "#888888",
+      fillOpacity: 0.9,
     });
-    const title = m.title ? escapeHtml(m.title) : "";
-    if (title) marker.bindTooltip(title);
+    const title = m.title ? escapeHtml(String(m.title)) : "";
+    if (title) cm.bindTooltip(title);
     if (linked) {
-      marker.bindPopup(
-        '<a href="' + escapeHtml(m.href) + '" class="internal">' + (title || "Open note") + "</a>",
+      cm.bindPopup(
+        '<a href="' + escapeHtml(String(m.href)) + '" class="internal">' + (title || "Open note") + "</a>",
       );
     }
-    marker.addTo(map);
+    let g = groups[m.type];
+    if (!g) g = groups[m.type] = L.layerGroup().addTo(map);
+    cm.addTo(g);
+    if (m.title) {
+      index.push({ q: String(m.title).toLowerCase(), title: String(m.title), lat: m.lat, lng: m.lng, cm });
+    }
   });
+
+  if (legend.length > 1) addFilterControl(map, legend, groups);
+  if (index.length > 0) addSearchControl(map, index);
+}
+
+function addFilterControl(map: any, legend: Array<Record<string, any>>, groups: Record<string, any>): void {
+  const ctrl = L.control({ position: "topright" });
+  ctrl.onAdd = function () {
+    const div = L.DomUtil.create("div", "olt-filter");
+    div.innerHTML = '<div class="olt-filter-head">Filter</div>';
+    legend.forEach((t) => {
+      const row = L.DomUtil.create("label", "olt-filter-row", div);
+      row.innerHTML =
+        '<input type="checkbox" checked> ' +
+        '<span class="olt-swatch" style="background:' + escapeHtml(String(t.color)) + '"></span>' +
+        '<span class="olt-flabel">' + escapeHtml(String(t.label)) + "</span>" +
+        '<span class="olt-fcount">' + Number(t.count) + "</span>";
+      const cb = row.querySelector("input") as HTMLInputElement;
+      cb.addEventListener("change", () => {
+        const g = groups[t.type];
+        if (!g) return;
+        if (cb.checked) g.addTo(map);
+        else map.removeLayer(g);
+      });
+    });
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+    return div;
+  };
+  ctrl.addTo(map);
+}
+
+function addSearchControl(map: any, index: SearchEntry[]): void {
+  const listId = "olt-list-" + Math.random().toString(36).slice(2, 8);
+  const ctrl = L.control({ position: "topleft" });
+  ctrl.onAdd = function () {
+    const div = L.DomUtil.create("div", "olt-search");
+    const opts = index.map((i) => '<option value="' + escapeHtml(i.title) + '">').join("");
+    div.innerHTML =
+      '<input type="text" class="olt-search-input" placeholder="Search pins…" list="' + listId + '">' +
+      '<datalist id="' + listId + '">' + opts + "</datalist>";
+    const input = div.querySelector("input") as HTMLInputElement;
+    const go = () => {
+      const q = input.value.trim().toLowerCase();
+      if (!q) return;
+      const hit = index.find((i) => i.q === q) || index.find((i) => i.q.indexOf(q) !== -1);
+      if (!hit) return;
+      const target = Math.min(map.getMaxZoom(), Math.max(map.getZoom(), 7.5));
+      map.setView([hit.lat, hit.lng], target);
+      if (hit.cm.getPopup && hit.cm.getPopup()) hit.cm.openPopup();
+      else if (hit.cm.openTooltip) hit.cm.openTooltip();
+    };
+    input.addEventListener("change", go);
+    input.addEventListener("keydown", (e: KeyboardEvent) => {
+      if (e.key === "Enter") go();
+    });
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+  };
+  ctrl.addTo(map);
 }
 
 function initOltMaps(): void {
-  const nodes = document.querySelectorAll<HTMLElement>(".olt-map");
-  nodes.forEach((el) => {
+  document.querySelectorAll<HTMLElement>(".olt-map").forEach((el) => {
     if (el.dataset.oltInit === "1") return;
     const raw = el.dataset.olt;
     if (!raw) return;
@@ -167,11 +240,7 @@ function initOltMaps(): void {
 }
 
 initOltMaps();
-// Quartz SPA navigation: re-init on each page change. The per-element
-// dataset.oltInit guard makes initOltMaps idempotent, so re-firing is safe.
 document.addEventListener("nav", initOltMaps);
 document.addEventListener("render", initOltMaps);
 
-// Satisfies the type-checker (this file is a module). The build loader
-// (tsup.config.ts) strips this line and substitutes the bundled script.
 export default "";
