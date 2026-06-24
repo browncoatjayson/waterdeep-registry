@@ -102,12 +102,10 @@ function buildMarkers(contentDir, mapId, transform, currentSlug, slugIndex) {
     if (!Array.isArray(m.loc) || typeof m.loc[0] !== "number" || typeof m.loc[1] !== "number") {
       continue;
     }
+    const title = (m.description ?? "").toString().trim();
+    if (!title && !m.link) continue;
     const [lat, lng] = applyTransform(m.loc, transform);
-    const marker = {
-      lat,
-      lng,
-      title: (m.description ?? "").toString()
-    };
+    const marker = { lat, lng, title };
     if (m.link) {
       const targetSlug = slugIndex.get(m.link.toLowerCase());
       if (targetSlug) marker.href = resolveRelative(currentSlug, targetSlug);

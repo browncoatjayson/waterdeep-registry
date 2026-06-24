@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1782305339453,
+      "lastAccessed": 1782317310140,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -1347,22 +1347,6 @@
           "command": false,
           "percent": null,
           "description": "(Unknown)",
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        },
-        {
-          "id": "ID_698b68c8ead8",
-          "type": "default",
-          "loc": [
-            6.342061015017251,
-            -71.34577520069482
-          ],
-          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"

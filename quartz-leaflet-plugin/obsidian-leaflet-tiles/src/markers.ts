@@ -142,12 +142,12 @@ export function buildMarkers(
     ) {
       continue; // skip markers without valid coordinates
     }
+    const title = (m.description ?? "").toString().trim();
+    // Skip blank markers: no label AND no link convey nothing — almost always a
+    // stray click in Obsidian. (A description-only or link-only marker is kept.)
+    if (!title && !m.link) continue;
     const [lat, lng] = applyTransform(m.loc as [number, number], transform);
-    const marker: RenderMarker = {
-      lat,
-      lng,
-      title: (m.description ?? "").toString(),
-    };
+    const marker: RenderMarker = { lat, lng, title };
     if (m.link) {
       const targetSlug = slugIndex.get(m.link.toLowerCase());
       if (targetSlug) marker.href = resolveRelative(currentSlug, targetSlug);
