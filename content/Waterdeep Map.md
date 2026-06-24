@@ -5,7 +5,7 @@ osmLayer: false
 crs: simple
 height: 900px
 width: 95%
-tileServer: https://raw.githubusercontent.com/browncoatjayson/waterdeep-registry/refs/heads/main/content/_tiles/{z}/{x}/{-y}.png
+tileServer: https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png
 noWrap: true
 bounds: [[0, 0], [152, 220]]
 maxBounds: [[0, 0], [152, 220]]
