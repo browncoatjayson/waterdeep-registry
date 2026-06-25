@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1782365887315,
+      "lastAccessed": 1782425151981,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -15,7 +15,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Silavene's Festhall",
+          "description": "Silavene's Festhall (City System marker 46)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -723,7 +723,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Wheel Hall",
+          "description": "Wheel Hall (City System marker 205)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -739,7 +739,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Three Pearls Nightclub",
+          "description": "Three Pearls Nightclub (City System marker 273)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -755,7 +755,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "House of Tarmagus + Keel-Hauled Dwarf",
+          "description": "House of Tarmagus + Keel-Hauled Dwarf (City System marker 253)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -851,7 +851,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Guard Barracks",
+          "description": "Guard Barracks (City System marker 7)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -995,7 +995,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Orm's Highbench",
+          "description": "Orm's Highbench (City System marker 228)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -1011,7 +1011,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Athal's Stables",
+          "description": "Athal's Stables (City System marker 229)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -1027,7 +1027,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Bellister's House",
+          "description": "Bellister's House (City System marker 227)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -1043,7 +1043,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Bellister's Hand",
+          "description": "Bellister's Hand (City System marker 226)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -1059,7 +1059,7 @@
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Metalmaster's Hall",
+          "description": "Metalmaster's Hall (City System marker 225)",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -1347,6 +1347,4502 @@
           "command": false,
           "percent": null,
           "description": "(Unknown)",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_285868bbda2a",
+          "type": "default",
+          "loc": [
+            59.61071871502858,
+            -125.16599251092872
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 77",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c879aad8782a",
+          "type": "default",
+          "loc": [
+            58.153614577278674,
+            -124.81640969063996
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 76",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9adadbdbc848",
+          "type": "default",
+          "loc": [
+            57.62090306993135,
+            -121.64685878668854
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 78",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_798a386a9ad8",
+          "type": "default",
+          "loc": [
+            55.87046524929271,
+            -122.1673487635629
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 75",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_593b8b7a0b68",
+          "type": "default",
+          "loc": [
+            57.10980607318391,
+            -116.19336679018389
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 79",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a81bc9388b38",
+          "type": "default",
+          "loc": [
+            54.648745430297886,
+            -116.72939378129333
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 71",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69b8c9bbeaea",
+          "type": "default",
+          "loc": [
+            55.90096376971825,
+            -111.40019789866915
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 72",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a5ab8b91b6b",
+          "type": "default",
+          "loc": [
+            58.164726833464464,
+            -107.82531738281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 81",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7acbb9fb1949",
+          "type": "default",
+          "loc": [
+            59.14195885558243,
+            -106.88049316406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 80",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb9b7b081bc9",
+          "type": "default",
+          "loc": [
+            57.30853855155461,
+            -105.49621582031251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 82",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_085b999b78db",
+          "type": "default",
+          "loc": [
+            58.93997817932394,
+            -99.5998355871441
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 91",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c989f9898be8",
+          "type": "default",
+          "loc": [
+            55.748231363431294,
+            -99.03273456756456
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 90",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa3b6b78fa2b",
+          "type": "default",
+          "loc": [
+            53.48130396579056,
+            -107.71545410156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 83",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f96a2abb19d8",
+          "type": "default",
+          "loc": [
+            51.58037652527785,
+            -115.87554931640626
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 70",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dacbea1a79db",
+          "type": "default",
+          "loc": [
+            49.88025640646944,
+            -108.47351074218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 69",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98cbe81b6b88",
+          "type": "default",
+          "loc": [
+            46.93502645094875,
+            -108.16589355468751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 68",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb9a9b2aa8e9",
+          "type": "default",
+          "loc": [
+            46.30875853700599,
+            -111.71447753906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 67",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8da0b3878a9",
+          "type": "default",
+          "loc": [
+            45.87447321690065,
+            -117.32849121093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 65",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b0ad95929ab",
+          "type": "default",
+          "loc": [
+            47.301351690150476,
+            -118.49304199218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 64",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_59da8a389b28",
+          "type": "default",
+          "loc": [
+            51.20688339486562,
+            -118.79516601562501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 63",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8c9380b29e8",
+          "type": "default",
+          "loc": [
+            53.57273446129218,
+            -126.38122558593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 73",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa7a5a1859db",
+          "type": "default",
+          "loc": [
+            53.63792116783135,
+            -124.26086425781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 74",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_290af969db9a",
+          "type": "default",
+          "loc": [
+            51.98466869743802,
+            -126.05163574218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 62",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_585af9e9aadb",
+          "type": "default",
+          "loc": [
+            48.53820445352662,
+            -125.35949707031251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 60",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_383839e868b8",
+          "type": "default",
+          "loc": [
+            48.48725893068082,
+            -127.54577636718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 61",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_093a6b1b9ba9",
+          "type": "default",
+          "loc": [
+            47.12224220783999,
+            -125.52429199218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 59",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08e9d9c8cada",
+          "type": "default",
+          "loc": [
+            45.71361120732579,
+            -124.60144042968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 57",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6828897839c9",
+          "type": "default",
+          "loc": [
+            45.42905779197545,
+            -121.94274902343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 58",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b90b9a5b9a48",
+          "type": "default",
+          "loc": [
+            47.36587721957073,
+            -105.16208668329416
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 85",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_59b9d89ac8f9",
+          "type": "default",
+          "loc": [
+            47.8216614996297,
+            -100.92048179712387
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 89",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d94b9b39f938",
+          "type": "default",
+          "loc": [
+            45.76913168745743,
+            -100.53205644124746
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 88",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1aba5baa59ea",
+          "type": "default",
+          "loc": [
+            52.48926133314315,
+            -94.19128417968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 94",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9aea79290a2b",
+          "type": "default",
+          "loc": [
+            44.13466703977284,
+            -126.65588378906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 53",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8c89948d82b",
+          "type": "default",
+          "loc": [
+            43.91347594344457,
+            -128.49060058593753
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 52",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebaa09f94b9b",
+          "type": "default",
+          "loc": [
+            43.77084590067956,
+            -130.80871582031253
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 51",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b083ab868a9",
+          "type": "default",
+          "loc": [
+            41.72187433497256,
+            -125.78796386718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 54",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bcb9b6bfaf8",
+          "type": "default",
+          "loc": [
+            42.67410615934708,
+            -124.4476318359375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 55",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8e8a9d95a8b",
+          "type": "default",
+          "loc": [
+            41.9592347975243,
+            -122.74475097656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 56",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9e9394a6918",
+          "type": "default",
+          "loc": [
+            42.04903769738075,
+            -115.66955566406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 66",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_791a59c85818",
+          "type": "default",
+          "loc": [
+            42.65794930135694,
+            -107.34191894531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 86",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bfb7b08fa59",
+          "type": "default",
+          "loc": [
+            41.68906587902419,
+            -105.1226806640625
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 87",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_695b39794b88",
+          "type": "default",
+          "loc": [
+            42.04087903536128,
+            -96.2127685546875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 92",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_597b3b18db5a",
+          "type": "default",
+          "loc": [
+            26.05678288577881,
+            -136.69189453125003
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 44",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a3b7afbf9d9",
+          "type": "default",
+          "loc": [
+            24.96582891774253,
+            -120.7781982421875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 43",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_282a3b693a7b",
+          "type": "default",
+          "loc": [
+            12.961568556019683,
+            -124.65362548828126
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 48",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab0a7b5828b8",
+          "type": "default",
+          "loc": [
+            19.231747155128627,
+            -130.80592867825405
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 45",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3839b878289b",
+          "type": "default",
+          "loc": [
+            17.773138482415636,
+            -127.32563748960148
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 47",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aab94ac9eb9a",
+          "type": "default",
+          "loc": [
+            7.548045369952865,
+            -114.002647783041
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 32",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8abb996a38bb",
+          "type": "default",
+          "loc": [
+            1.4479927189463435,
+            -100.48932965210106
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 31",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09091aea9a5a",
+          "type": "default",
+          "loc": [
+            -27.150197463329473,
+            -110.52235659438847
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 18",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_899808ea186b",
+          "type": "default",
+          "loc": [
+            -25.493074995210975,
+            -111.19044820649587
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 19",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b2a1beba9ca",
+          "type": "default",
+          "loc": [
+            -25.53514049287118,
+            -108.54138727941884
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 17",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a0b193ad948",
+          "type": "default",
+          "loc": [
+            -23.74880109712754,
+            -108.49477623671366
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b4a8a299acb",
+          "type": "default",
+          "loc": [
+            -32.975249331226664,
+            -100.819491204596
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 20",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a7b39d9a8ba",
+          "type": "default",
+          "loc": [
+            -35.85853192394885,
+            -105.83017829540157
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_482998bb8aea",
+          "type": "default",
+          "loc": [
+            -53.932865655991016,
+            -122.36156144150112
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 1",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_18aac84a2899",
+          "type": "default",
+          "loc": [
+            -57.44504180837563,
+            -104.39483642578126
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 3",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b897a681848",
+          "type": "default",
+          "loc": [
+            -70.25956796117022,
+            -71.90002441406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 252",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4989cb48a9a9",
+          "type": "default",
+          "loc": [
+            -70.9239358272349,
+            -69.92248535156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 251",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b299a0b5a8a",
+          "type": "default",
+          "loc": [
+            -71.4097841695799,
+            -64.48425292968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 250",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a0b78998ac8",
+          "type": "default",
+          "loc": [
+            -69.24057862839378,
+            -66.43432617187501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 254",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_19c84babeb5a",
+          "type": "default",
+          "loc": [
+            -68.98610884057358,
+            -64.96765136718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 255",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebea7bb938eb",
+          "type": "default",
+          "loc": [
+            -68.81208078650974,
+            -66.68151855468751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 256",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a9a084a1bda",
+          "type": "default",
+          "loc": [
+            -69.01366901106898,
+            -68.13171386718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 257",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_080869a86979",
+          "type": "default",
+          "loc": [
+            -68.78426802258873,
+            -70.26306152343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 263",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a9ac978f83b",
+          "type": "default",
+          "loc": [
+            -69.65720562471874,
+            -73.28430175781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 264",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eb6838fb0b48",
+          "type": "default",
+          "loc": [
+            -67.99535374830481,
+            -72.42736816406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 265",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58985a881a89",
+          "type": "default",
+          "loc": [
+            -67.83425743030429,
+            -66.57165527343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 262",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_582bba7b7a5a",
+          "type": "default",
+          "loc": [
+            -68.20433966405666,
+            -63.86901855468751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 261",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a6978186a89",
+          "type": "default",
+          "loc": [
+            -67.86739388807425,
+            -78.98620605468751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 266",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88b8cadaa9c8",
+          "type": "default",
+          "loc": [
+            -65.6810476318691,
+            -81.46911621093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 267",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_280a989baa7b",
+          "type": "default",
+          "loc": [
+            -63.1495485396947,
+            -78.9312744140625
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 268",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f9dabb1b9999",
+          "type": "default",
+          "loc": [
+            -63.376755901872734,
+            -76.24511718750001
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 269",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9fb088b682a",
+          "type": "default",
+          "loc": [
+            -65.33490635641682,
+            -72.71301269531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 270",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb393a48e89a",
+          "type": "default",
+          "loc": [
+            -64.64755544369154,
+            -70.57067871093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 271",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_383b4bc9099b",
+          "type": "default",
+          "loc": [
+            -64.10115648468992,
+            -65.56091308593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 272",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99fa6a7a2b49",
+          "type": "default",
+          "loc": [
+            -59.971679862590484,
+            -75.54748535156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 277",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9f869bb4878",
+          "type": "default",
+          "loc": [
+            -57.44513418067816,
+            -70.43884277343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 276",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea79181a58b8",
+          "type": "default",
+          "loc": [
+            -59.00114668969754,
+            -80.95275878906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 278",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9dbf8fb5a89",
+          "type": "default",
+          "loc": [
+            -54.73116261807957,
+            -93.3123779296875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 281",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4858b9785a79",
+          "type": "default",
+          "loc": [
+            -52.689910526258736,
+            -80.23864746093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 280",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b2b8b3a9889",
+          "type": "default",
+          "loc": [
+            -51.549964506565914,
+            -72.57019042968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 279",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b8a4beb8bba",
+          "type": "default",
+          "loc": [
+            -48.61134891293679,
+            -67.86804199218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 6",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b58a88b4bdb",
+          "type": "default",
+          "loc": [
+            -49.066893333417376,
+            -69.05456542968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 5",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_384a896bfaaa",
+          "type": "default",
+          "loc": [
+            -48.232220035521614,
+            -72.82287597656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 4",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a8b4a9afb99",
+          "type": "default",
+          "loc": [
+            -45.03495739688846,
+            -76.69006347656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 9",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbdaeb6a59ea",
+          "type": "default",
+          "loc": [
+            -43.2774552762092,
+            -74.54772949218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ea9909593bcb",
+          "type": "default",
+          "loc": [
+            -43.516937503196395,
+            -73.35021972656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b685a4a78f8",
+          "type": "default",
+          "loc": [
+            -42.277562797398,
+            -74.11926269531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39eb8a491b5a",
+          "type": "default",
+          "loc": [
+            -42.342559039568606,
+            -72.95471191406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5ae838899a98",
+          "type": "default",
+          "loc": [
+            -42.520952568910346,
+            -71.39465332031251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8ba80a4968ca",
+          "type": "default",
+          "loc": [
+            -43.80306650355187,
+            -71.98791503906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d9696a799889",
+          "type": "default",
+          "loc": [
+            -44.45755485514125,
+            -70.93322753906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_984baa5b6a9a",
+          "type": "default",
+          "loc": [
+            -44.58288734682993,
+            -68.07678222656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 8",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9e8b94908ea",
+          "type": "default",
+          "loc": [
+            -45.01942775841288,
+            -65.16540527343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 198",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b98bfa6a4bd8",
+          "type": "default",
+          "loc": [
+            -42.33443817970888,
+            -64.79187011718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 197",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a95b09287a68",
+          "type": "default",
+          "loc": [
+            -38.91668153637508,
+            -68.67553710937501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 196",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2beb58596a8b",
+          "type": "default",
+          "loc": [
+            -37.72755182140954,
+            -79.08508300781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 13",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8db4a4a8a28",
+          "type": "default",
+          "loc": [
+            -39.808536041445905,
+            -79.81567382812501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 10",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f9eb287b38b8",
+          "type": "default",
+          "loc": [
+            -38.754083275791416,
+            -80.72753906250001
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 11",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9fb4a8be9f9",
+          "type": "default",
+          "loc": [
+            -39.41073305508496,
+            -83.57299804687501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 12",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a89d9bbe94a",
+          "type": "default",
+          "loc": [
+            -38.01374672284205,
+            -84.28161621093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 16",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bbb98d9e869",
+          "type": "default",
+          "loc": [
+            -37.9098044916969,
+            -82.64465332031251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 15",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_badb48983aa8",
+          "type": "default",
+          "loc": [
+            -37.78835270558377,
+            -81.28234863281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 14",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa99e90a286b",
+          "type": "default",
+          "loc": [
+            -31.513288547069767,
+            -85.14953613281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 21",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b888b8891849",
+          "type": "default",
+          "loc": [
+            -31.830899063394394,
+            -81.76025390625001
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 22",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9ba18e9ca9b",
+          "type": "default",
+          "loc": [
+            -33.1194377715135,
+            -78.3160400390625
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 24",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b794a4bba19",
+          "type": "default",
+          "loc": [
+            -30.770454107327698,
+            -75.71228027343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 25",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8b908b94b89",
+          "type": "default",
+          "loc": [
+            -29.11407534041047,
+            -79.01916503906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 26",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa58daea28fb",
+          "type": "default",
+          "loc": [
+            -27.215861522870537,
+            -77.84362792968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 27",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28db58a9db9a",
+          "type": "default",
+          "loc": [
+            -35.44305062875043,
+            -71.05407714843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 34",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08fa9ab8c8b9",
+          "type": "default",
+          "loc": [
+            -34.02563228017171,
+            -72.95471191406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 33",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d939aba9296a",
+          "type": "default",
+          "loc": [
+            -35.38037291260886,
+            -69.39514160156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 35",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb2be8ba0b38",
+          "type": "default",
+          "loc": [
+            -34.189369823029246,
+            -69.68078613281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 36",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39783b6a1a4b",
+          "type": "default",
+          "loc": [
+            -33.330815099768145,
+            -69.62585449218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 37",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e99969283bca",
+          "type": "default",
+          "loc": [
+            -31.23188523950035,
+            -69.82360839843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 38",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8087bd80b9a",
+          "type": "default",
+          "loc": [
+            -35.24589948049945,
+            -66.43981933593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 178",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b8bcb78787b",
+          "type": "default",
+          "loc": [
+            -33.50504534498899,
+            -64.59411621093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 177",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8f9087a993b",
+          "type": "default",
+          "loc": [
+            -30.60984527992997,
+            -66.80236816406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 176",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_584aea590b89",
+          "type": "default",
+          "loc": [
+            -28.101360809481005,
+            -64.25354003906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 174",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79f938389b0a",
+          "type": "default",
+          "loc": [
+            -27.547545946019735,
+            -67.05505371093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 175",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88592b682a29",
+          "type": "default",
+          "loc": [
+            -25.94847500061109,
+            -66.18713378906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 173",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99e908ea8b8b",
+          "type": "default",
+          "loc": [
+            -23.49379152375954,
+            -70.57067871093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 39",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_28eac96b7a4a",
+          "type": "default",
+          "loc": [
+            -17.17261079927515,
+            -64.72595214843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 170",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_698beb09cb58",
+          "type": "default",
+          "loc": [
+            -14.849563094648925,
+            -67.41760253906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 169",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bdb58895868",
+          "type": "default",
+          "loc": [
+            -14.019688803167643,
+            -67.46154785156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 168",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b9885a99bb08",
+          "type": "default",
+          "loc": [
+            -16.172802544775493,
+            -76.95373535156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 30",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4aa8090a6868",
+          "type": "default",
+          "loc": [
+            -18.521608865786362,
+            -80.02990722656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 29",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa8a88ea0898",
+          "type": "default",
+          "loc": [
+            -26.539701474535505,
+            -77.94250488281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 27",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_388889182819",
+          "type": "default",
+          "loc": [
+            -26.66740260395726,
+            -76.1737060546875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 28",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4928eb5b7bba",
+          "type": "default",
+          "loc": [
+            -25.503094419237485,
+            -82.22717285156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 23",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abba8bb80aab",
+          "type": "default",
+          "loc": [
+            -9.722339054408279,
+            -74.30557641247299
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 40",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb2b7939dbcb",
+          "type": "default",
+          "loc": [
+            9.483789166844739,
+            -77.99173303974
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 41",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa487bc9daf9",
+          "type": "default",
+          "loc": [
+            15.89178158991414,
+            -82.24887494014534
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 42",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58698b1b7988",
+          "type": "default",
+          "loc": [
+            17.78030489597249,
+            -69.58620833857472
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 117",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab4b188b99d8",
+          "type": "default",
+          "loc": [
+            19.238852761170858,
+            -73.31509175498816
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 111",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_689af8a9aa5b",
+          "type": "default",
+          "loc": [
+            20.087441429539908,
+            -76.43803161623441
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 110",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a0adb4a2b0b",
+          "type": "default",
+          "loc": [
+            21.409574741823885,
+            -73.33062876922322
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 112",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b59883af838",
+          "type": "default",
+          "loc": [
+            26.030787540955448,
+            -76.3758835592942
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 113",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3aa8d9ba3ab9",
+          "type": "default",
+          "loc": [
+            25.751237821313016,
+            -79.93385981912202
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 106",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6829387b79ab",
+          "type": "default",
+          "loc": [
+            24.159545157866,
+            -82.18672688320513
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 106",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbf8e9c84948",
+          "type": "default",
+          "loc": [
+            21.033006200224918,
+            -80.53980337428919
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 105",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb58f8c8e888",
+          "type": "default",
+          "loc": [
+            20.931458769223088,
+            -79.34345327818988
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 104",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb5ae89a8908",
+          "type": "default",
+          "loc": [
+            28.748073910821457,
+            -84.89016736010485
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 50",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b84a3ad9f959",
+          "type": "default",
+          "loc": [
+            31.687783521849205,
+            -82.26441195438039
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 107",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_198b5bdabb48",
+          "type": "default",
+          "loc": [
+            29.210190416322654,
+            -69.97463369445111
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 118",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9ac84a7ba91a",
+          "type": "default",
+          "loc": [
+            33.14359485990027,
+            -79.21915716430944
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 107",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_396b7be9691b",
+          "type": "default",
+          "loc": [
+            36.28460924318535,
+            -75.21060749166499
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 114",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_087bc82969d9",
+          "type": "default",
+          "loc": [
+            37.9079342676532,
+            -66.83615681896983
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 127",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7878599889f8",
+          "type": "default",
+          "loc": [
+            45.990696765352894,
+            -70.3009109933873
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 119",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b86a6adb9b58",
+          "type": "default",
+          "loc": [
+            45.08748016268471,
+            -76.51571668740971
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 115",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a5a7858b84b",
+          "type": "default",
+          "loc": [
+            45.32830028147112,
+            -79.35899029242495
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 108",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8eaf8bbda08",
+          "type": "default",
+          "loc": [
+            41.864115166815544,
+            -86.24188759855473
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 97",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e928ab6babe8",
+          "type": "default",
+          "loc": [
+            47.18651031919274,
+            -91.95950883705534
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 93",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbea19b8cbe9",
+          "type": "default",
+          "loc": [
+            47.71184468314582,
+            -69.58620833857472
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 120",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b2bc98b298a",
+          "type": "default",
+          "loc": [
+            51.13623942504275,
+            -75.24945002725262
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 116",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8d99958bb6a",
+          "type": "default",
+          "loc": [
+            51.0871636058628,
+            -79.4056013351301
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 109",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3b387bebe97b",
+          "type": "default",
+          "loc": [
+            51.17491464283841,
+            -82.1245788262649
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 109",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbcb9828ba3a",
+          "type": "default",
+          "loc": [
+            49.02296516714161,
+            -84.78917676757699
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 98",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79f8f918fb18",
+          "type": "default",
+          "loc": [
+            51.611171802530656,
+            -102.63343761653879
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 84",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_883b589a5b88",
+          "type": "default",
+          "loc": [
+            55.39673476174745,
+            -91.88182376588006
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 95",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da5a798b3b58",
+          "type": "default",
+          "loc": [
+            53.62004001358214,
+            -89.16284627474526
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 99",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bc958183918",
+          "type": "default",
+          "loc": [
+            53.95964111320905,
+            -82.18672688320513
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 100",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a5b899bdba8",
+          "type": "default",
+          "loc": [
+            54.02358097421599,
+            -79.04825000772381
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 100",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b884a8a6aaa",
+          "type": "default",
+          "loc": [
+            54.57662490268129,
+            -73.6569060681594
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 101",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b5879996a5a",
+          "type": "default",
+          "loc": [
+            53.29626085785261,
+            -70.59611426385337
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 121",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8d8080bd859",
+          "type": "default",
+          "loc": [
+            54.45035326195094,
+            -66.61863861967903
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 122",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b59498a4a58",
+          "type": "default",
+          "loc": [
+            56.104984153939164,
+            -69.15117193999316
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 123",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8e9fbfb6979",
+          "type": "default",
+          "loc": [
+            57.57498208165806,
+            -64.55221572641658
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 140",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cbc9197a5818",
+          "type": "default",
+          "loc": [
+            59.80260931038326,
+            -64.52114169794648
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 124",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88baf9ebd8cb",
+          "type": "default",
+          "loc": [
+            62.23287439384097,
+            -70.20768890797697
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b8b298aa90b",
+          "type": "default",
+          "loc": [
+            59.13967499466801,
+            -75.33490360554545
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 103",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_abca59194bdb",
+          "type": "default",
+          "loc": [
+            59.362099379339924,
+            -79.11039806466405
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 102",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a5a5b1869fa",
+          "type": "default",
+          "loc": [
+            57.790941087260045,
+            -92.0371939082306
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 96",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9c88999eaea",
+          "type": "default",
+          "loc": [
+            59.90529542111871,
+            -58.0023193359375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 141",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_580a495baaa8",
+          "type": "default",
+          "loc": [
+            59.57867720398543,
+            -56.02478027343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 142",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a2a5b7b7848",
+          "type": "default",
+          "loc": [
+            57.415193346701166,
+            -52.4871826171875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 143",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab8a797aea5b",
+          "type": "default",
+          "loc": [
+            54.425122179311224,
+            -59.2437744140625
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 139",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a4a992b8b88",
+          "type": "default",
+          "loc": [
+            53.53357413030719,
+            -53.65173339843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 151",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89d9fa695888",
+          "type": "default",
+          "loc": [
+            46.42271253466719,
+            -50.96557617187501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 150",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98fa2b39aa1b",
+          "type": "default",
+          "loc": [
+            47.583705044846624,
+            -49.1583251953125
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 152",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_980af93afa5b",
+          "type": "default",
+          "loc": [
+            45.859173030102205,
+            -41.99523925781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 153",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbe9491a4b29",
+          "type": "default",
+          "loc": [
+            45.32897866218559,
+            -60.72143554687501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 133",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e97b880a6baa",
+          "type": "default",
+          "loc": [
+            39.59695869911646,
+            -61.05651855468751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker ?",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68085b9b9a79",
+          "type": "default",
+          "loc": [
+            42.56901152817752,
+            -57.7166748046875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 138",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98fbea4a78cb",
+          "type": "default",
+          "loc": [
+            42.633706141059655,
+            -50.16906738281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 149",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7a08b8884b4b",
+          "type": "default",
+          "loc": [
+            43.739352079154706,
+            -42.00073242187501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 154",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a2a181bfb19",
+          "type": "default",
+          "loc": [
+            36.66814353758175,
+            -39.16076660156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 155",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5bfa9a7acbb9",
+          "type": "default",
+          "loc": [
+            36.5976134995302,
+            -46.22497558593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 147",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b81ad84bda2b",
+          "type": "default",
+          "loc": [
+            37.16004293569592,
+            -52.73986816406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 148",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb8a88390a09",
+          "type": "default",
+          "loc": [
+            35.00272217158056,
+            -61.86950683593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 131",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa48880a1838",
+          "type": "default",
+          "loc": [
+            33.11886268108282,
+            -65.79162597656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 126",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7ada58793b5b",
+          "type": "default",
+          "loc": [
+            31.259476506614963,
+            -61.74865722656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 130",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38ca5bdadb6a",
+          "type": "default",
+          "loc": [
+            32.74079345429909,
+            -53.7396240234375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 137",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5beb2bfa79ba",
+          "type": "default",
+          "loc": [
+            25.690728636119648,
+            -59.40856933593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 129",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bae8b8490939",
+          "type": "default",
+          "loc": [
+            27.692952348108836,
+            -46.57653808593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 145",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_580adbcbc809",
+          "type": "default",
+          "loc": [
+            32.0077848302677,
+            -47.5872802734375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 146",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b6829eb1878",
+          "type": "default",
+          "loc": [
+            32.5743024055915,
+            -41.09436035156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 157",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6ac86ba828ca",
+          "type": "default",
+          "loc": [
+            31.343961237904775,
+            -41.98425292968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 156",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09e83babebc9",
+          "type": "default",
+          "loc": [
+            28.43971381702788,
+            -38.44116210937501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 158",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69b888ab0869",
+          "type": "default",
+          "loc": [
+            21.422070301212212,
+            -42.6544189453125
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 159",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b0b88193bfa",
+          "type": "default",
+          "loc": [
+            17.999305094585168,
+            -47.99377441406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 144",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aaf99baaca18",
+          "type": "default",
+          "loc": [
+            19.745701104107397,
+            -60.39733886718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 128",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9383929d92a",
+          "type": "default",
+          "loc": [
+            14.402426845420461,
+            -62.19909667968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 125",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d9b8a879ea29",
+          "type": "default",
+          "loc": [
+            14.93383817289663,
+            -56.07971191406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 135",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b48db78baea",
+          "type": "default",
+          "loc": [
+            14.77455053537988,
+            -54.00329589843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 136",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9bd9b89aba6a",
+          "type": "default",
+          "loc": [
+            12.822513897983297,
+            -41.71508789062501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 160",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b95bfa39eb19",
+          "type": "default",
+          "loc": [
+            2.481790403046189,
+            -55.12390136718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 134",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab2938fa3a59",
+          "type": "default",
+          "loc": [
+            -16.278289865973488,
+            -62.68249511718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 171",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6a3a4a88188a",
+          "type": "default",
+          "loc": [
+            -16.20445467323095,
+            -56.11267089843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 167",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b1869592928",
+          "type": "default",
+          "loc": [
+            -18.39655591557585,
+            -53.23425292968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 165",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a4b3b0ac89b",
+          "type": "default",
+          "loc": [
+            -14.051663793332843,
+            -52.7947998046875
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 166",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b0b580818d8",
+          "type": "default",
+          "loc": [
+            -21.882208395031483,
+            -47.71911621093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 164",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_78d97a3babe9",
+          "type": "default",
+          "loc": [
+            -25.473343208476575,
+            -60.73791503906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 172",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b99848b8b9a9",
+          "type": "default",
+          "loc": [
+            -28.236951911276297,
+            -50.42175292968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 163",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab6b5adb0808",
+          "type": "default",
+          "loc": [
+            -31.137897129089428,
+            -45.7855224609375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 162",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a93a7aca0a18",
+          "type": "default",
+          "loc": [
+            -34.42531932518918,
+            -43.2806396484375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 161",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_691aeb289a29",
+          "type": "default",
+          "loc": [
+            -35.96050086278099,
+            -46.4007568359375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 186",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99cbbbeb78fb",
+          "type": "default",
+          "loc": [
+            -37.475130552413596,
+            -46.91711425781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 190",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_19db9b6928ca",
+          "type": "default",
+          "loc": [
+            -38.03970928778597,
+            -50.57556152343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 189",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db18db18ea69",
+          "type": "default",
+          "loc": [
+            -34.434381057870155,
+            -49.67468261718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 185",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbc8391bebfb",
+          "type": "default",
+          "loc": [
+            -33.92541457768647,
+            -51.55334472656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 184",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_baaa596b9bf9",
+          "type": "default",
+          "loc": [
+            -32.98130814512645,
+            -51.45446777343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 183",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_898b79f99989",
+          "type": "default",
+          "loc": [
+            -37.84042796619094,
+            -56.56311035156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 187",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_eab8b94929aa",
+          "type": "default",
+          "loc": [
+            -36.02272435613145,
+            -56.04675292968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 182",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9696ae968ba",
+          "type": "default",
+          "loc": [
+            -38.60855421078629,
+            -57.77160644531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 188",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b9bb8280939",
+          "type": "default",
+          "loc": [
+            -35.773536140918665,
+            -58.68347167968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 181",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_989bf859dac9",
+          "type": "default",
+          "loc": [
+            -36.95894546974529,
+            -62.44079589843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 180",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_887a0ae8ba3a",
+          "type": "default",
+          "loc": [
+            -35.227952803273666,
+            -61.43005371093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 179",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db3b780b0b29",
+          "type": "default",
+          "loc": [
+            -40.0867399604097,
+            -58.82629394531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 202",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6868aa8b08ab",
+          "type": "default",
+          "loc": [
+            -40.714216056006244,
+            -60.33142089843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 201",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa59f92a7a18",
+          "type": "default",
+          "loc": [
+            -40.162345756286136,
+            -61.15539550781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 200",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89d998fb3899",
+          "type": "default",
+          "loc": [
+            -46.08870990565685,
+            -61.14440917968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 199",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb7acb5bfbbb",
+          "type": "default",
+          "loc": [
+            -44.2375742934444,
+            -53.7396240234375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 203",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa48a818c9c9",
+          "type": "default",
+          "loc": [
+            -44.63763553131337,
+            -46.7083740234375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 193",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e96969fb5a88",
+          "type": "default",
+          "loc": [
+            -45.96666317750253,
+            -44.8956298828125
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 194",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da495909a94b",
+          "type": "default",
+          "loc": [
+            -53.02159872684731,
+            -56.02478027343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 204",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c81898abc95a",
+          "type": "default",
+          "loc": [
+            -55.335588883748976,
+            -50.70739746093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 206",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f928d818e9c9",
+          "type": "default",
+          "loc": [
+            -54.17549767287705,
+            -48.10363769531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 213",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3bc8e9fab988",
+          "type": "default",
+          "loc": [
+            -56.34718015083249,
+            -42.85217285156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 214",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8eb1a0a199a",
+          "type": "default",
+          "loc": [
+            -56.608074417651395,
+            -37.04040527343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 215",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_49fb4b8a8ba9",
+          "type": "default",
+          "loc": [
+            -58.65426324261112,
+            -44.5880126953125
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 217",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_489ac809aa0b",
+          "type": "default",
+          "loc": [
+            -58.938850326671975,
+            -46.22497558593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 216",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb284baa79bb",
+          "type": "default",
+          "loc": [
+            -60.44113190288759,
+            -49.7515869140625
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 207",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4bf87869a899",
+          "type": "default",
+          "loc": [
+            -60.77542294696517,
+            -56.26647949218751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 274",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a2b697ac9ab",
+          "type": "default",
+          "loc": [
+            -56.84915972509919,
+            -61.06750488281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 275",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38092889f90a",
+          "type": "default",
+          "loc": [
+            -66.98180035878521,
+            -58.99108886718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 260",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08796a386bc8",
+          "type": "default",
+          "loc": [
+            -68.34261326956207,
+            -56.53015136718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 259",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79097bab8b4a",
+          "type": "default",
+          "loc": [
+            -69.87757027623407,
+            -56.85974121093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 247",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_586879f9db29",
+          "type": "default",
+          "loc": [
+            -70.02809362050226,
+            -58.32641601562501
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 248",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4aabfb494aca",
+          "type": "default",
+          "loc": [
+            -70.47366768534654,
+            -61.62780761718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 249",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a3b89f92a9b",
+          "type": "default",
+          "loc": [
+            -69.32620009567624,
+            -62.44079589843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 258",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2b2b58bb78db",
+          "type": "default",
+          "loc": [
+            -70.24471965365194,
+            -44.95056152343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 208",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99e8d879e999",
+          "type": "default",
+          "loc": [
+            -68.76835938225784,
+            -37.93029785156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 222",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9a899d8ba89",
+          "type": "default",
+          "loc": [
+            -68.43567739071987,
+            -36.45812988281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 221",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_886b9ba8f90a",
+          "type": "default",
+          "loc": [
+            -67.7844643995226,
+            -36.48010253906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 219",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab5b69b9b949",
+          "type": "default",
+          "loc": [
+            -67.8715326358245,
+            -35.04089355468751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 220",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58faa9c938a9",
+          "type": "default",
+          "loc": [
+            -69.82458918470984,
+            -35.26062011718751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 224",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e98bba3beb8a",
+          "type": "default",
+          "loc": [
+            -64.15389156319476,
+            -41.10534667968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 211",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0b78baaa2818",
+          "type": "default",
+          "loc": [
+            -71.58411130578824,
+            -35.07385253906251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 223",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a93b581bea6a",
+          "type": "default",
+          "loc": [
+            -72.36255215320814,
+            -45.29113769531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 211",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b58bb79795a",
+          "type": "default",
+          "loc": [
+            -71.45526179488675,
+            -50.00427246093751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 210",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8e85bea8b7a",
+          "type": "default",
+          "loc": [
+            -71.99947553936342,
+            -56.67297363281251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 245",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b5acafaf9db",
+          "type": "default",
+          "loc": [
+            -72.26910754189176,
+            -58.67248535156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 246",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b899a08b948",
+          "type": "default",
+          "loc": [
+            -72.88743865318759,
+            -55.16784667968751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 244",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca3899a8aaa8",
+          "type": "default",
+          "loc": [
+            -72.36588062762767,
+            -52.71789550781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 243",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f8a9bb59283a",
+          "type": "default",
+          "loc": [
+            -73.21093910028495,
+            -51.86096191406251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 282",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_883bfad8daaa",
+          "type": "default",
+          "loc": [
+            -73.11228360810468,
+            -49.79553222656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 242",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1bf89aca19e8",
+          "type": "default",
+          "loc": [
+            -73.78508183125024,
+            -48.03771972656251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 240",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba395a6baab8",
+          "type": "default",
+          "loc": [
+            -73.64026807519377,
+            -46.79626464843751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 241",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb4a3bbbfa59",
+          "type": "default",
+          "loc": [
+            -74.78458560810707,
+            -46.00524902343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 239",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d868cb99cb2a",
+          "type": "default",
+          "loc": [
+            -75.19991569982352,
+            -44.45617675781251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 237",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2bc84b3b39c9",
+          "type": "default",
+          "loc": [
+            -75.6314440488674,
+            -43.3575439453125
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 238",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b092869eb5b",
+          "type": "default",
+          "loc": [
+            -75.10137146228307,
+            -41.62170410156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 236",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa3b092bca18",
+          "type": "default",
+          "loc": [
+            -73.82491598702903,
+            -42.18200683593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 235",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e9082a5a797a",
+          "type": "default",
+          "loc": [
+            -74.05589318607532,
+            -40.20446777343751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 233",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_baaaa869d8ba",
+          "type": "default",
+          "loc": [
+            -73.89820587724297,
+            -38.98498535156251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 234",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8ab985a0998",
+          "type": "default",
+          "loc": [
+            -74.72970558596708,
+            -37.43591308593751
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 232",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29192b2a3b2b",
+          "type": "default",
+          "loc": [
+            -75.62599033912983,
+            -40.2923583984375
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 231",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b78698b3aea",
+          "type": "default",
+          "loc": [
+            -76.2922266639119,
+            -43.9727783203125
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 7",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a0b492ba9c9",
+          "type": "default",
+          "loc": [
+            -76.52714133168973,
+            -42.30285644531251
+          ],
+          "layer": "https://pub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev/{z}/{x}/{-y}.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City System marker 230",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
