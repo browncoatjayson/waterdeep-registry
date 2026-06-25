@@ -14,6 +14,19 @@
   }
 }
 
+.olt-popup .leaflet-popup-content-wrapper {
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 6px;
+}
+
+.olt-popup .leaflet-popup-content {
+  margin: 0.75rem 0.9rem;
+  max-height: 320px;
+  overflow-y: auto;
+  & > :first-child { margin-top: 0; }
+}
+
 .leaflet-container {
   background: #0b0c0e;
   font: inherit;

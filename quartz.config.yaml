@@ -17,33 +17,41 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header:
+        name: UnifrakturCook
+        weights: [700]
+      body:
+        name: IM Fell English
+        weights: [400]
+        includeItalic: false
       code: IBM Plex Mono
+    # Dark chrome palette with a dark-blue accent. lightMode and darkMode are
+    # identical so the site is always dark (the mode toggle is hidden along with
+    # the sidebar). The parchment reading panel re-scopes these vars in custom.scss.
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#13161b"
+        lightgray: "#272d38"
+        gray: "#8893a3"
+        darkgray: "#c6cedb"
+        dark: "#eef2f8"
+        secondary: "#5e83c4"
+        tertiary: "#86a6dc"
+        highlight: rgba(94, 131, 196, 0.15)
+        textHighlight: "#b3aa0288"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#13161b"
+        lightgray: "#272d38"
+        gray: "#8893a3"
+        darkgray: "#c6cedb"
+        dark: "#eef2f8"
+        secondary: "#5e83c4"
+        tertiary: "#86a6dc"
+        highlight: rgba(94, 131, 196, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
-    enabled: true
+    enabled: false
     options:
       defaultDateType: modified
       priority:
@@ -152,17 +160,17 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
   - source: github:quartz-community/search
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 20
@@ -201,13 +209,13 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -221,7 +229,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
@@ -265,7 +273,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: its-theme
       variation: ttrpg-dnd
@@ -276,7 +284,7 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: ./quartz-leaflet-plugin/obsidian-leaflet-tiles
+  - source: ./obsidian-leaflet-tiles
     enabled: true
     order: 35
 layout:
@@ -291,7 +299,7 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content: { template: full-width }
     folder:
       exclude:
         - reader-mode
@@ -302,5 +310,5 @@ layout:
         - reader-mode
       positions:
         right: []
-    canvas: {}
-    bases: {}
+    canvas: { template: full-width }
+    bases: { template: full-width }

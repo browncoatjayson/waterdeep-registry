@@ -47,6 +47,22 @@ function escapeHtml(s: string): string {
     .replace(/'/g, "&#39;");
 }
 
+const _domParser = new DOMParser();
+
+async function fetchPopupBody(href: string): Promise<string> {
+  try {
+    const res = await fetch(href);
+    if (!res.ok) return "";
+    const doc = _domParser.parseFromString(await res.text(), "text/html");
+    // .center article = the markdown body; it begins at the note's first
+    // heading. The page title + date live outside it in .page-header.
+    const article = doc.querySelector(".center article");
+    return article ? article.innerHTML : "";
+  } catch {
+    return "";
+  }
+}
+
 function buildMap(el: HTMLElement, cfg: Record<string, any>): void {
   if (typeof L === "undefined") return;
   const tileServer: string = String(cfg.tileServer || "");
@@ -150,9 +166,21 @@ function renderMarkers(map: any, el: HTMLElement): void {
     const title = m.title ? escapeHtml(String(m.title)) : "";
     if (title) cm.bindTooltip(title);
     if (linked) {
-      cm.bindPopup(
-        '<a href="' + escapeHtml(String(m.href)) + '" class="internal">' + (title || "Open note") + "</a>",
-      );
+      const href = String(m.href);
+      cm.bindPopup('<div class="olt-popup-loading">…</div>', {
+        className: "olt-popup",
+        maxWidth: 360,
+        minWidth: 260,
+        maxHeight: 360,
+      });
+      let loaded = false;
+      cm.on("popupopen", () => {
+        if (loaded) return;
+        loaded = true;
+        fetchPopupBody(href).then((body) => {
+          cm.setPopupContent(body || title || "Open note");
+        });
+      });
     }
     let g = groups[m.type];
     if (!g) g = groups[m.type] = L.layerGroup().addTo(map);

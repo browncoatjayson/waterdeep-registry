@@ -1,3 +1,159 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ============================================================
+   Fonts
+   UnifrakturCook ships only weight 700 and IM Fell English only
+   400, so Quartz's auto-generated Google Fonts request (which asks
+   for 400/600/700) would 400 and break everything. We load the
+   exact faces directly instead. @font-face works anywhere in the
+   bundle, so this is independent of stylesheet ordering.
+   ============================================================ */
+@font-face {
+  font-family: "UnifrakturCook";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/unifrakturcook/v25/IurA6Yli8YOdcoky-0PTTdkm56n05Uw1.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "IM Fell English";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/imfellenglish/v14/Ktk1ALSLW8zDe0rthJysWrnLsAz3Fw.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "IM Fell English";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/imfellenglish/v14/Ktk3ALSLW8zDe0rthJysWrnLsAzHFaOd.ttf")
+    format("truetype");
+}
+
+/* ============================================================
+   Parchment reading panel
+   The page chrome (body) stays dark. #quartz-body becomes a
+   parchment panel with dark-ink text and a dark-navy accent.
+   We re-scope Quartz's colour variables here, so every
+   var()-based colour inside the panel flips automatically.
+   ============================================================ */
+#quartz-body {
+  background-image: url("_images/parchment.jpg");
+  background-repeat: repeat;
+  padding: 0 1em;
+  min-height: 100vh;
+
+  --darkgray: #2c2418; /* body text (ink) */
+  --dark: #20160f; /* headings / strong (near-black ink) */
+  --secondary: #1c3a63; /* links + page title (dark navy) */
+  --tertiary: #2f568b; /* hover */
+  --gray: #6e6248; /* muted: breadcrumb, meta, rules */
+  --lightgray: #c9b48f; /* borders / horizontal rules on parchment */
+  --highlight: rgba(40, 70, 110, 0.12);
+  color: var(--darkgray);
+}
+
+/* Map popups keep the dark-chrome look (light text on a dark panel),
+   so reset the palette back to the chrome values inside them. */
+.olt-popup .leaflet-popup-content-wrapper,
+.olt-popup .leaflet-popup-tip {
+  --darkgray: #c6cedb;
+  --dark: #eef2f8;
+  --secondary: #5e83c4;
+  --tertiary: #86a6dc;
+  --gray: #8893a3;
+  --lightgray: #272d38;
+  background: var(--light);
+  color: var(--darkgray);
+}
+.olt-popup .leaflet-popup-content {
+  color: var(--darkgray);
+}
+.olt-popup .leaflet-popup-content a {
+  color: var(--secondary);
+}
+
+/* ============================================================
+   Compact reading
+   Smaller body text and a tighter heading rhythm. The map popups
+   are the primary reading surface, so they get the tightest spacing.
+   ============================================================ */
+article {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+article :is(h1, h2, h3, h4, h5, h6) {
+  margin-top: 0.85rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.15;
+}
+article > :first-child {
+  margin-top: 0;
+}
+article p {
+  margin: 0.45rem 0;
+}
+article ul,
+article ol {
+  margin: 0.4rem 0;
+}
+article li {
+  margin: 0.1rem 0;
+}
+
+/* Popup content: tighter still, since width is limited. */
+.leaflet-popup-content {
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+.leaflet-popup-content :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0.45rem 0 0.2rem;
+  line-height: 1.1;
+}
+.leaflet-popup-content > :first-child {
+  margin-top: 0;
+}
+.leaflet-popup-content p {
+  margin: 0 !important;
+}
+
+/* ---- Manual tweaks ---- */
+body {
+  background-color: #040b1b;
+}
+pre {
+  padding: 0;
+}
+.leaflet-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+.leaflet-popup-content,
+.leaflet-tooltip {
+  font-family: var(--bodyFont) !important;
+}
+.leaflet-overlay-pane {
+  margin: 1rem 0 !important;
+}
+div.page-header,
+div.popover-hint {
+  display: none;
+}
+a.header {
+  display: block;
+  width: 520px;
+  height: 60px;
+  background-image: url("_images/header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -15,7 +15,7 @@
               "state": {
                 "file": "Waterdeep Map.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Waterdeep Map"
@@ -198,8 +198,17 @@
   },
   "active": "d1f271d501af77e1",
   "lastOpenFiles": [
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
+    "_images/header2.png",
+    "_images/header.png",
+    "index.md",
     "Waterdeep Map.md",
+    "_images/hero-image.png",
+    "_images/seal.png",
+    "_images/registry.png",
+    "_images/parchment.jpg",
+    "_images",
+    "Welcome to the Waterdeep Registry.md",
+    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-06.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-08.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-14.md",
@@ -207,7 +216,6 @@
     "_locations/TradesWard-TradesPointNorth-HighRoad-04.md",
     "_locations/TradesWard-TradesPointNorth-LampStreet-01.md",
     "_locations/SeaWard-JelzarsStride-JelzarsStride-02.md",
-    "index.md",
     "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
     "_locations/SeaWard-JelzarsStride-LionsAlley-04.md",
     "_locations/TradesWard-TradesPointNorth-HighRoad-01.md",
@@ -222,19 +230,12 @@
     "_locations/SeaWard-JelzarsStride-TheLions-01.md",
     "_locations/SeaWard-JelzarsStride-MarchAlley-03.md",
     "_locations/SeaWard-JelzarsStride-MarchAlley-02.md",
-    "_locations/SeaWard-JelzarsStride-MarchAlley-01.md",
-    "_locations/SeaWard-JelzarsStride-Courtyard-01.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",
     "_maps/4/9/7.png",
     "_maps/4/9/6.png",
     "_maps/4/9/54.png",
-    "_maps/4/9/53.png",
-    "_maps/4/9/52.png",
-    "_maps/4/9/51.png",
-    "_maps/4/9/50.png",
-    "_maps/4/9/5.png",
     "_maps/4/9",
     "_maps/4/8",
     "_maps/4/7",
@@ -242,7 +243,6 @@
     "_maps/4/5",
     "_maps/4/4",
     "_maps/4/37",
-    "_maps/4/36",
-    "_maps/4/35"
+    "_maps/4/36"
   ]
 }
