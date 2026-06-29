@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Fishmongers
+building type: Guidehouse Fishmongers
 lifestyle:
 status: Draft
 owner_id:

@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Watermen
+building type: Guidehouse Watermen
 lifestyle:
 status: Draft
 owner_id:

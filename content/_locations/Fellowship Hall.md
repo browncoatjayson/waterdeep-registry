@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Innkeepers
+building type: Guidehouse Innkeepers
 lifestyle:
 status: Draft
 owner_id:

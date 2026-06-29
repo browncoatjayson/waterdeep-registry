@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Basketmakers
+building type: Guidehouse Basketmakers
 lifestyle:
 status: Draft
 owner_id:

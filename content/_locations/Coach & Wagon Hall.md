@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Wagonmakers
+building type: Guidehouse Wagonmakers
 lifestyle:
 status: Draft
 owner_id:

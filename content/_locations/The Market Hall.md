@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Farmers and Grocers
+building type: Guidehouse Farmers and Grocers
 lifestyle:
 status: Draft
 owner_id:

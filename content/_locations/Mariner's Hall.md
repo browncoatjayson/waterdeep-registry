@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Mariners
+building type: Guidehouse Mariners
 lifestyle:
 status: Draft
 owner_id:

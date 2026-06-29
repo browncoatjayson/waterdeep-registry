@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Skinners & Tanners
+building type: Guidehouse Skinners & Tanners
 lifestyle:
 status: Draft
 owner_id:

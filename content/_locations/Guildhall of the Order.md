@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Furriers and Woolmen
+building type: Guidehouse Furriers and Woolmen
 lifestyle:
 status: Draft
 owner_id:

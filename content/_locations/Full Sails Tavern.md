@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Tavern, Guild HQ: Sailmakers
+building type: Tavern, Guidehouse Sailmakers
 lifestyle:
 status: Draft
 owner_id:

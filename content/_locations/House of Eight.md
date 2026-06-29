@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Lamplighters
+building type: Guidehouse Lamplighters
 lifestyle:
 status: Draft
 owner_id:

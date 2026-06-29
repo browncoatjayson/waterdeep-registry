@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Musicians
+building type: Guidehouse Musicians
 lifestyle:
 status: Draft
 owner_id:

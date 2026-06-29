@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Roofers & Carpenters
+building type: Guidehouse Roofers & Carpenters
 lifestyle:
 status: Draft
 owner_id:

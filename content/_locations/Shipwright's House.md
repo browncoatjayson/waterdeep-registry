@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Shipwrights
+building type: Guidehouse Shipwrights
 lifestyle:
 status: Draft
 owner_id:

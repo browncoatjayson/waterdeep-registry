@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Coopers
+building type: Guidehouse Coopers
 lifestyle:
 status: Draft
 owner_id:

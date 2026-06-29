@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Tavern; Guild HQ: Dungsweepers
+building type: Tavern; Guidehouse Dungsweepers
 lifestyle:
 status: Draft
 owner_id:

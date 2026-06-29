@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Pewterers & Casters
+building type: Guidehouse Pewterers & Casters
 lifestyle:
 status: Draft
 owner_id:

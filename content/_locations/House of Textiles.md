@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Weavers
+building type: Guidehouse Weavers
 lifestyle:
 status: Draft
 owner_id:

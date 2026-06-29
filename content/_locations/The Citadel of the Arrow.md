@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Bowyers
+building type: Guidehouse Bowyers
 lifestyle:
 status: Draft
 owner_id:

@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Shippers
+building type: Guidehouse Shippers
 lifestyle:
 status: Draft
 owner_id:

@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Fine Carvers
+building type: Guidehouse Fine Carvers
 lifestyle:
 status: Draft
 owner_id:

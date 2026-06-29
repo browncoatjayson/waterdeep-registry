@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Tailors
+building type: Guidehouse Tailors
 lifestyle:
 status: Draft
 owner_id:

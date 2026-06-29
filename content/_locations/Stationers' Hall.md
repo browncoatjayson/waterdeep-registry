@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Stationers
+building type: Guidehouse Stationers
 lifestyle:
 status: Draft
 owner_id:

@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Plumbers
+building type: Guidehouse Plumbers
 lifestyle:
 status: Draft
 owner_id:

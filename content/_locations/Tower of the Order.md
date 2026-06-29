@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Magic-users
+building type: Guidehouse Magic-users
 lifestyle:
 status: Draft
 owner_id:

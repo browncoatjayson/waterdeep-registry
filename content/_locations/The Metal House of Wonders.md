@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Armorers
+building type: Guidehouse Armorers
 lifestyle:
 status: Draft
 owner_id:

@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Apothecaries
+building type: Guidehouse Apothecaries
 lifestyle:
 status: Draft
 owner_id:

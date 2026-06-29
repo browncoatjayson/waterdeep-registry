@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Bakers
+building type: Guidehouse Bakers
 lifestyle:
 status: Draft
 owner_id:

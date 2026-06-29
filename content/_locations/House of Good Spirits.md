@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Vintners & Brewers
+building type: Guidehouse Vintners & Brewers
 lifestyle:
 status: Draft
 owner_id:

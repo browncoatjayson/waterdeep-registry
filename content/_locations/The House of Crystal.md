@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Glass-Blowers
+building type: Guidehouse Glass-Blowers
 lifestyle:
 status: Draft
 owner_id:

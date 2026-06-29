@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Coachmen
+building type: Guidehouse Coachmen
 lifestyle:
 status: Draft
 owner_id:

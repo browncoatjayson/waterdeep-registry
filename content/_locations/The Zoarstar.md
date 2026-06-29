@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Scribes & Clerks
+building type: Guidehouse Scribes & Clerks
 lifestyle:
 status: Draft
 owner_id:

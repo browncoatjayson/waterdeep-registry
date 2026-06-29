@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Metalworkers
+building type: Guidehouse Metalworkers
 lifestyle:
 status: Draft
 owner_id:

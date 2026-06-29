@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Masons
+building type: Guidehouse Masons
 lifestyle:
 status: Draft
 owner_id:

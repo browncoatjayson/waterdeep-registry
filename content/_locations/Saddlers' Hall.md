@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Saddlemakers
+building type: Guidehouse Saddlemakers
 lifestyle:
 status: Draft
 owner_id:

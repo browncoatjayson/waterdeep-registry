@@ -5,7 +5,7 @@ district:
 neighborhood:
 street:
 number:
-building type: Guild HQ: Wheelwrights
+building type: Guidehouse Wheelwrights
 lifestyle:
 status: Draft
 owner_id:
