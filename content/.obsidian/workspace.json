@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cedd39f90a717032",
+        "id": "0d5346b03512f955",
         "type": "tabs",
         "children": [
           {
-            "id": "d1f271d501af77e1",
+            "id": "fdb0938188783482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Waterdeep Map.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Waterdeep Map"
-            }
-          },
-          {
-            "id": "9fa92b731053c9f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_locations/SeaWard-JelzarsStride-TheLions-01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SeaWard-JelzarsStride-TheLions-01"
-            }
-          },
-          {
-            "id": "99697585cfe0e05a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_locations/TradesWard-TradesPointNorth-LampStreet-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TradesWard-TradesPointNorth-LampStreet-02"
             }
           }
         ]
@@ -224,11 +196,13 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "d1f271d501af77e1",
+  "active": "fdb0938188783482",
   "lastOpenFiles": [
-    "_locations/SeaWard-JelzarsStride-TheLions-01.md",
+    "Welcome to the Waterdeep Registry.md",
     "Waterdeep Map.md",
-    "_locations/TradesWard-TradesPointNorth-LampStreet-02.md",
+    "SeaWard-JelzarsStride-TheLions-01.md",
+    "_locations/House of Heroes.md",
+    "_locations/Lyskan Hesune, Sage.md",
     "_templates/_Placeholder.md",
     "_images/header2.png",
     "_images/header.png",
@@ -238,7 +212,6 @@
     "_images/registry.png",
     "_images/parchment.jpg",
     "_images",
-    "Welcome to the Waterdeep Registry.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-06.md",
     "_locations/TradesWard-TradesPointNorth-AndamarsStreet-08.md",
@@ -258,7 +231,6 @@
     "_locations/SeaWard-JelzarsStride-WestwallStreet-03.md",
     "_locations/SeaWard-JelzarsStride-WestwallStreet-02.md",
     "_locations/SeaWard-JelzarsStride-WestwallStreet-01.md",
-    "_locations/SeaWard-JelzarsStride-MarchAlley-03.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",
