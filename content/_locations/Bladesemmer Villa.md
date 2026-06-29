@@ -1,11 +1,11 @@
 ---
 type: location
-ward:
+ward: Sea
 district:
 neighborhood:
-street:
+street: Sul Street
 number:
-building type: Noble family villa
+building type: Villa
 lifestyle:
 status: Draft
 owner_id:
@@ -17,6 +17,4 @@ wiki_url:
 **Lot detail:**  enter description
 
 ## Appearances
-<i><a href="https://forgottenrealms.fandom.com/wiki/City_System">City System</a></i>, TSR Inc, September 1988, map id 97;
-
-City System marker 97, City of Splendors marker 53
+<i><a href="https://forgottenrealms.fandom.com/wiki/City_System">City System</a></i>, TSR Inc, September 1988, map id 97; City of Splendors, Wizards of the Coast, x, map id 53.

@@ -1,11 +1,11 @@
 ---
 type: location
-ward:
+ward: Trades
 district:
 neighborhood:
-street:
+street: Walltower Walk
 number:
-building type: Guild HQ: Stablemasters
+building type: Guildhall
 lifestyle:
 status: Draft
 owner_id:
@@ -14,9 +14,7 @@ wiki_url:
 ---
 
 ## The Guild Paddock
-**Lot detail:**  enter description
+**Lot detail:**  two stories
 
 ## Appearances
-<i><a href="https://forgottenrealms.fandom.com/wiki/City_System">City System</a></i>, TSR Inc, September 1988, map id 195;
-
-City System marker 195, City of Splendors marker 34
+<i><a href="https://forgottenrealms.fandom.com/wiki/City_System">City System</a></i>, TSR Inc, September 1988, map id 195; City of Splendors, Wizards of the Coast, x, map id 34.

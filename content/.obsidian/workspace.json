@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0d5346b03512f955",
+        "id": "47b064d35934ee39",
         "type": "tabs",
         "children": [
           {
-            "id": "fdb0938188783482",
+            "id": "320153854b04b561",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Waterdeep Map.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -196,10 +196,17 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "fdb0938188783482",
+  "active": "320153854b04b561",
   "lastOpenFiles": [
-    "Welcome to the Waterdeep Registry.md",
+    "_locations/Bladesemmer Villa.md",
     "Waterdeep Map.md",
+    "_locations/The Guild Paddock.md",
+    "_locations/Husteem's Residence.md",
+    "_locations/Hriiat Fine Pastries.md",
+    "_locations/A Maiden's Tears.md",
+    "_locations/A Cut Above Clothiers.md",
+    "_locations/Lavah's Triumphal Arms.md",
+    "Welcome to the Waterdeep Registry.md",
     "SeaWard-JelzarsStride-TheLions-01.md",
     "_locations/House of Heroes.md",
     "_locations/Lyskan Hesune, Sage.md",
@@ -224,13 +231,6 @@
     "_locations/SeaWard-JelzarsStride-LionsAlley-04.md",
     "_locations/TradesWard-TradesPointNorth-HighRoad-01.md",
     "_locations/SeaWard-JelzarsStride-LionsAlley-03.md",
-    "_locations/SeaWard-JelzarsStride-LionsAlley-02.md",
-    "_locations/SeaWard-JelzarsStride-LionsAlley-01.md",
-    "_locations/SeaWard-JelzarsStride-JelzarsStride-03.md",
-    "_locations/SeaWard-JelzarsStride-JelzarsStride-01.md",
-    "_locations/SeaWard-JelzarsStride-WestwallStreet-03.md",
-    "_locations/SeaWard-JelzarsStride-WestwallStreet-02.md",
-    "_locations/SeaWard-JelzarsStride-WestwallStreet-01.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",
