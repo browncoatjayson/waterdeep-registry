@@ -9,4 +9,7 @@ This site maintains a registry of buildings, sorted by block, neighborhood, dist
 
 ![[seal.png | 480]]
 
+<center><a href="static/locations">Click here to view the registry table!</a></center>
+
+<hr>
 This project is an [Obsidian.md](https://obsidian.md/) vault that includes a leaflet map of Waterdeep by [Tych Maps](https://tychmaps.com/), hosted via [Quartz](https://quartz.jzhao.xyz/).
