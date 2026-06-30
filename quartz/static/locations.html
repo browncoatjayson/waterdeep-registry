@@ -126,7 +126,7 @@ function render(){
   body.innerHTML = rows.map(r=>{
     const cells = COLS.map(c=>{
       if(c==="title"){
-        const href = LINK_PREFIX + r.slug + "/";
+        const href = LINK_PREFIX + r.slug;
         return `<td class="t"><a href="${href}">${esc(r.title)}</a></td>`;
       }
       return r[c]==="" ? '<td><span class="blank">—</span></td>' : `<td>${esc(r[c])}</td>`;
