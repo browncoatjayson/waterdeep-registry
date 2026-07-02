@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "waterdeep-map",
-      "lastAccessed": 1782710496649,
+      "lastAccessed": 1783024536691,
       "markers": [
         {
           "id": "ID_0a88ca7a8b7a",
@@ -3403,7 +3403,7 @@
         },
         {
           "id": "ID_79f938389b0a",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -27.547545946019735,
             -67.05505371093751
@@ -3454,7 +3454,7 @@
         },
         {
           "id": "ID_28eac96b7a4a",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             -17.684944907015968,
             -64.51337319082894
@@ -3471,24 +3471,24 @@
         },
         {
           "id": "ID_698beb09cb58",
-          "type": "default",
+          "type": "Business",
           "loc": [
             -14.849563094648925,
             -67.41760253906251
           ],
-          "link": "The Riven Shield",
+          "link": "The Riven Shield Shop",
           "layer": "https%3A%2F%2Fpub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "The Riven Shield",
+          "description": "The Riven Shield Shop",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
         },
         {
           "id": "ID_2bdb58895868",
-          "type": "default",
+          "type": "Public House",
           "loc": [
             -14.019688803167643,
             -67.46154785156251
@@ -4814,7 +4814,7 @@
         },
         {
           "id": "ID_ab2938fa3a59",
-          "type": "default",
+          "type": "Residence",
           "loc": [
             -16.278289865973488,
             -62.68249511718751
@@ -6332,11 +6332,12 @@
             -8.095581758319094,
             -68.15680302894957
           ],
+          "link": "Khammaeral's Coins",
           "layer": "https%3A%2F%2Fpub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "City of Splendors marker 2",
+          "description": "Khammaeral's Coins",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -6348,11 +6349,12 @@
             -6.662644976454716,
             -65.14262226734871
           ],
+          "link": "Underdark",
           "layer": "https%3A%2F%2Fpub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "City of Splendors marker 1",
+          "description": "The Underdark",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -6983,6 +6985,38 @@
           "command": false,
           "percent": null,
           "description": "Pelauvir's Counter",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a6abb89b9c9",
+          "type": "default",
+          "loc": [
+            -55.233941163923305,
+            -128.2850481186162
+          ],
+          "layer": "https%3A%2F%2Fpub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "C74",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab49889928aa",
+          "type": "default",
+          "loc": [
+            -59.16825418151125,
+            -132.9772264176031
+          ],
+          "layer": "https%3A%2F%2Fpub-0bd36f9f41bd478aae57fa6d4d45861c.r2.dev%2F%7Bz%7D%2F%7Bx%7D%2F%7B-y%7D.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "C69",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"

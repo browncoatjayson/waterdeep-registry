@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Waterdeep Map.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Waterdeep Map"
+            }
+          },
+          {
+            "id": "f97cef21947511bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_locations/Saern's Fine Swords.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Saern's Fine Swords"
+            }
+          },
+          {
+            "id": "d315c762e223919a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_locations/Mhair's Tower.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mhair's Tower"
             }
           }
         ]
@@ -198,7 +226,23 @@
   },
   "active": "320153854b04b561",
   "lastOpenFiles": [
+    "_locations/Saern's Fine Swords.md",
+    "_locations/Monastery of the Sun Soul.md",
     "Waterdeep Map.md",
+    "_locations/The Riven Shield Shop.md",
+    "The Riven Shield.md",
+    "_locations/Mhair's Tower.md",
+    "_locations/Splendon's Residence.md",
+    "_locations/Inn of the Dripping Dagger.md",
+    "_locations/Khammaeral's Coins.md",
+    "_locations/Underdark.md",
+    "_templates/Location Template.md",
+    "_locations/A Cut Above Clothiers.md",
+    "_locations/Amethyst Eaves.md",
+    "_locations/Barracks 6.md",
+    "_locations/Sailor's Own.md",
+    "_locations/Mirt's Mansion.md",
+    "index.md",
     "_locations/House of Textiles.md",
     "_locations/Muleskull Tavern.md",
     "_locations/The House of Crystal.md",
@@ -207,30 +251,14 @@
     "_locations/Husteem's Residence.md",
     "_locations/Hriiat Fine Pastries.md",
     "_locations/A Maiden's Tears.md",
-    "_locations/A Cut Above Clothiers.md",
     "_locations/Lavah's Triumphal Arms.md",
-    "Welcome to the Waterdeep Registry.md",
-    "SeaWard-JelzarsStride-TheLions-01.md",
-    "_locations/House of Heroes.md",
-    "_locations/Lyskan Hesune, Sage.md",
-    "_templates/_Placeholder.md",
     "_images/header2.png",
     "_images/header.png",
-    "index.md",
     "_images/hero-image.png",
     "_images/seal.png",
     "_images/registry.png",
     "_images/parchment.jpg",
     "_images",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-01.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-06.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-08.md",
-    "_locations/TradesWard-TradesPointNorth-AndamarsStreet-14.md",
-    "_locations/TradesWard-TradesPointNorth-LampStreet-07.md",
-    "_locations/TradesWard-TradesPointNorth-HighRoad-04.md",
-    "_locations/TradesWard-TradesPointNorth-LampStreet-01.md",
-    "_locations/SeaWard-JelzarsStride-JelzarsStride-02.md",
-    "_locations/TradesWard-TradesPointNorth-Courtyard-2.md",
     "_locations",
     "_maps/4/9/9.png",
     "_maps/4/9/8.png",

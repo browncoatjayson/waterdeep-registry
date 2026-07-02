@@ -120,12 +120,29 @@ function resolveRelative(current: string, target: string): string {
 }
 function lastSegment(slug: string): string {
   const parts = slug.split("/").filter((x) => x !== "");
-  return (parts[parts.length - 1] ?? "").toLowerCase();
+  return parts[parts.length - 1] ?? "";
+}
+// Reduce a filename/slug/link to a comparable key. Quartz slugifies filenames
+// (lowercase, spaces -> "-", "&" -> "-and-", apostrophes kept, etc.), so a raw
+// Obsidian link like "Amphail's Finest" never equals the slug "amphail's-finest"
+// by string match. Stripping both sides to lowercase alphanumerics (with "&"
+// expanded to "and") makes them compare equal regardless of separators.
+function normalizeKey(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "");
+}
+// An Obsidian link may carry a display alias ("Note|Alias"), a heading
+// ("Note#Heading"), or a subpath ("folder/Note"); reduce to the target's key.
+function normalizeLink(link: string): string {
+  const base = link.split("|")[0].split("#")[0];
+  return normalizeKey(lastSegment(base));
 }
 export function buildSlugIndex(allSlugs: string[]): Map<string, string> {
   const idx = new Map<string, string>();
   for (const slug of allSlugs) {
-    const key = lastSegment(slug);
+    const key = normalizeKey(lastSegment(slug));
     if (key && !idx.has(key)) idx.set(key, slug);
   }
   return idx;
@@ -166,7 +183,7 @@ export function buildMarkerData(
       color: colors.get(type) ?? FALLBACK_COLOR,
     };
     if (m.link) {
-      const targetSlug = slugIndex.get(m.link.toLowerCase());
+      const targetSlug = slugIndex.get(normalizeLink(String(m.link)));
       if (targetSlug) marker.href = resolveRelative(currentSlug, targetSlug);
     }
     markers.push(marker);

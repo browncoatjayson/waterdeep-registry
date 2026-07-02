@@ -100,12 +100,19 @@ function resolveRelative(current, target) {
 }
 function lastSegment(slug) {
   const parts = slug.split("/").filter((x) => x !== "");
-  return (parts[parts.length - 1] ?? "").toLowerCase();
+  return parts[parts.length - 1] ?? "";
+}
+function normalizeKey(s) {
+  return s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "");
+}
+function normalizeLink(link) {
+  const base = link.split("|")[0].split("#")[0];
+  return normalizeKey(lastSegment(base));
 }
 function buildSlugIndex(allSlugs) {
   const idx = /* @__PURE__ */ new Map();
   for (const slug of allSlugs) {
-    const key = lastSegment(slug);
+    const key = normalizeKey(lastSegment(slug));
     if (key && !idx.has(key)) idx.set(key, slug);
   }
   return idx;
@@ -129,7 +136,7 @@ function buildMarkerData(contentDir, mapId, transform, currentSlug, slugIndex) {
       color: colors.get(type) ?? FALLBACK_COLOR
     };
     if (m.link) {
-      const targetSlug = slugIndex.get(m.link.toLowerCase());
+      const targetSlug = slugIndex.get(normalizeLink(String(m.link)));
       if (targetSlug) marker.href = resolveRelative(currentSlug, targetSlug);
     }
     markers.push(marker);
